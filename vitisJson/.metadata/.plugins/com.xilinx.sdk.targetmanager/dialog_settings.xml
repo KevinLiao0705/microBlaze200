@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent JTAG-HS2 201706300081&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-JTAG-HS2-201706300081-13636093-0&quot;}}]}"/>
+	<item key="syncMain_system-bitFile" value="${project_loc:syncMain}/_ide/bitstream/design_1_wrapper.bit"/>
+	<item key="syncMain_system-bmmFile" value="${project_loc:syncMain}/_ide/bitstream/design_1_wrapper.mmi"/>
+	<item key="syncMain_system-target" value="Local"/>
+	<item key="syncMain_system-device" value="Auto Detect"/>
+	<item key="syncMain_system-partial_bit" value="false"/>
+	<item key="syncMain_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="syncMain_system"/>
+	<item key="syncMain_system-microblaze_0-initElf" value="E:\kevin\myCode\microBlaze1\vitisJson\syncMain\Debug\syncMain.elf"/>
+</section>

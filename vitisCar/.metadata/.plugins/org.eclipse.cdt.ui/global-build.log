@@ -1,0 +1,5 @@
+Nothing to build in platform 'syncBlaze'
+
+14:03:38 **** Incremental Build of configuration Debug for project syncMain ****
+make all 
+make: Nothing to be done for 'all'.

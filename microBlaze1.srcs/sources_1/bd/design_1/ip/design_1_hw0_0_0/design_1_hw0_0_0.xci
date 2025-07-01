@@ -1,0 +1,104 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_hw0_0_0",
+    "cell_name": "hw0_0",
+    "component_reference": "xilinx.com:module_ref:hw0:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../microBlaze1.gen/sources_1/bd/design_1/ip/design_1_hw0_0_0",
+    "parameters": {
+      "component_parameters": {
+        "RamAddrWidth": [ { "value": "13", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "RamDataWidth": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "RamDepth": [ { "value": "256", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "design_1_hw0_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "RamAddrWidth": [ { "value": "13", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "RamDataWidth": [ { "value": "32", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "RamDepth": [ { "value": "256", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "artix7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7a200t" } ],
+        "PACKAGE": [ { "value": "fbg484" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-2" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ],
+        "USE_RDI_CUSTOMIZATION": [ { "value": "TRUE" } ],
+        "USE_RDI_GENERATION": [ { "value": "TRUE" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../microBlaze1.gen/sources_1/bd/design_1/ip/design_1_hw0_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2022.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "ramClk": [ { "direction": "in" } ],
+        "ramAddr": [ { "direction": "in", "size_left": "12", "size_right": "0" } ],
+        "ramInData": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "ramOutData": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "ramWe": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "ramEn": [ { "direction": "in" } ],
+        "ramRstp": [ { "direction": "in" } ],
+        "sysClk": [ { "direction": "in" } ],
+        "clk160m": [ { "direction": "in" } ],
+        "resetN": [ { "direction": "in" } ],
+        "gpsPps": [ { "direction": "in" } ],
+        "ledV3": [ { "direction": "out" } ],
+        "ledV4": [ { "direction": "out" } ],
+        "rfInA": [ { "direction": "in", "size_left": "11", "size_right": "0" } ],
+        "rfOutA": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "fibTxA": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
+        "fibRxA": [ { "direction": "in", "size_left": "3", "size_right": "0" } ],
+        "fibTxB1": [ { "direction": "out" } ],
+        "fibTxB3": [ { "direction": "out" } ],
+        "fibTxB5": [ { "direction": "out" } ],
+        "fibTxB7": [ { "direction": "out" } ],
+        "fibRxB1": [ { "direction": "in" } ],
+        "fibRxB3": [ { "direction": "in" } ],
+        "fibRxB5": [ { "direction": "in" } ],
+        "fibRxB7": [ { "direction": "in" } ],
+        "inpChk0": [ { "direction": "in" } ],
+        "inpChk1": [ { "direction": "in" } ],
+        "inpChk2": [ { "direction": "in" } ],
+        "inpChk3": [ { "direction": "in" } ],
+        "inpChkA": [ { "direction": "in", "size_left": "7", "size_right": "0" } ],
+        "wgRfOut": [ { "direction": "out" } ],
+        "hdfoA": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "laCh": [ { "direction": "out", "size_left": "15", "size_right": "0" } ],
+        "hdfioA": [ { "direction": "in", "size_left": "13", "size_right": "0" } ],
+        "dfInP": [ { "direction": "in", "size_left": "15", "size_right": "0" } ],
+        "dfInN": [ { "direction": "in", "size_left": "15", "size_right": "0" } ],
+        "dfOutP": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "dfOutN": [ { "direction": "out", "size_left": "7", "size_right": "0" } ]
+      },
+      "interfaces": {
+        "resetN": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "value_permission": "bd_and_user", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "resetN" } ]
+          }
+        }
+      }
+    }
+  }
+}

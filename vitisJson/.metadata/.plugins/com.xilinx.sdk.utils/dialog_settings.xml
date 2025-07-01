@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="E:\kevin\myCode\microBlaze1"/>
+	<item key="fpga_elf_mem_selection" value="E:\kevin\myCode\microBlaze1\vitisJson\syncMain\Debug"/>
+	<item key="soc_flash_files_selection" value="E:\kevin\myCode\microBlaze1\vitisJson\syncMain\_ide\bitstream"/>
+	<item key="scw_hwspec_file_selection" value="E:\kevin\myCode\microBlaze1-100t"/>
+</section>

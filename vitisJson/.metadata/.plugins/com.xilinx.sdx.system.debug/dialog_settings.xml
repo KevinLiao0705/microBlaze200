@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="syncMain_system-imgFile" value="E:\kevin\myCode\microBlaze1\vitisJson\syncMain\_ide\bitstream\download.bit"/>
+	<item key="syncMain_system-offSet" value=""/>
+	<item key="syncMain_system-initFile" value=""/>
+	<item key="syncMain_system-flashType" value="mt25ql128-spi-x1_x2_x4"/>
+	<item key="syncMain_system-verifyFlash" value="false"/>
+	<item key="syncMain_system-blankCheck" value="false"/>
+	<item key="syncMain_system-device" value="Auto Detect"/>
+	<item key="syncMain_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="syncMain_system"/>
+</section>

@@ -1,0 +1,6 @@
+git init
+touch README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Leonuch/flex.git
+git push -u origin main

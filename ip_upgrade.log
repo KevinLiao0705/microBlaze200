@@ -1,0 +1,528 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_clk_wiz_1_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_rst_clk_wiz_1_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_microblaze_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_microblaze_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 28)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_microblaze_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_microblaze_0_0 (xilinx.com:ip:microblaze:11.0 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_mdm_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_mdm_1_0 (xilinx.com:ip:mdm:3.2 (Rev. 23)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_M_AXIS_ID_WIDTH to value 7 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_lmb_bram_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_lmb_bram_0 (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ilmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ilmb_v10_0 (xilinx.com:ip:lmb_v10:3.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ilmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ilmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0 (Rev. 21)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_hw0_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_hw0_0_0 (xilinx.com:module_ref:hw0:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_dlmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_dlmb_v10_0 (xilinx.com:ip:lmb_v10:3.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:01 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_dlmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_dlmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0 (Rev. 21)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_clk_wiz_1_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 11)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_uartlite_6_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_uartlite_6_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 31)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_uartlite_5_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_uartlite_5_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 31)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_uartlite_4_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_uartlite_4_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 31)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_uartlite_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_uartlite_3_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 31)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_uartlite_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_uartlite_1_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 31)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_uartlite_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_uartlite_0_1 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 31)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_uartlite_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_uartlite_0_0 (xilinx.com:ip:axi_uartlite:2.0 (Rev. 31)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_timer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_timer_0_0 (xilinx.com:ip:axi_timer:2.0 (Rev. 29)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_intc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_intc_0_0 (xilinx.com:ip:axi_intc:4.1 (Rev. 17)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_IVAR_RESET_VALUE to value 0x0000000000000010 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_gpio_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_gpio_1_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 29)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 29)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Mar 25 14:54:00 2025
+| Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_bram_ctrl_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_bram_ctrl_0_1 (xilinx.com:ip:axi_bram_ctrl:4.1 (Rev. 7)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot remove parameter C_SELECT_XPM : there is no parameter called C_SELECT_XPM in axi_bram_ctrl_v4_1
+

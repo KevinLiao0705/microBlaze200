@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Mon Jun 30 15:49:46 2025
+//Date        : Mon Jul 14 14:10:13 2025
 //Host        : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
@@ -27,7 +27,6 @@ module design_1_wrapper
     gpInA,
     gpOutA,
     gpsPps,
-    hdfiA,
     hdfioA,
     hdfoA,
     laCh,
@@ -60,7 +59,6 @@ module design_1_wrapper
   input [9:0]gpInA;
   output [7:0]gpOutA;
   input gpsPps;
-  input [13:0]hdfiA;
   inout [13:0]hdfioA;
   output [7:0]hdfoA;
   output [15:0]laCh;
@@ -94,7 +92,6 @@ module design_1_wrapper
   wire [9:0]gpInA;
   wire [7:0]gpOutA;
   wire gpsPps;
-  wire [13:0]hdfiA;
   wire [13:0]hdfioA;
   wire [7:0]hdfoA;
   wire [15:0]laCh;
@@ -129,7 +126,6 @@ module design_1_wrapper
         .gpInA(gpInA),
         .gpOutA(gpOutA),
         .gpsPps(gpsPps),
-        .hdfiA(hdfiA),
         .hdfioA(hdfioA),
         .hdfoA(hdfoA),
         .laCh(laCh),

@@ -1,0 +1,4 @@
+18:02:49 DEBUG : Logs will be stored at 'E:/kevin/myCode/microBlaze200/vitisJson/syncMain/IDE.log'.
+18:02:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\kevin\myCode\microBlaze200\vitisJson\syncMain\temp_xsdb_launch_script.tcl
+18:02:52 INFO  : Registering command handlers for Vitis TCF services
+18:02:55 INFO  : Platform repository initialization has completed.

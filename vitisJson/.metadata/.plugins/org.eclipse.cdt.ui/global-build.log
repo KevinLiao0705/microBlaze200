@@ -1,15 +1,15 @@
 Nothing to build in platform 'syncBlaze'
 
-08:53:52 **** Incremental Build of configuration Debug for project syncMain ****
+18:05:11 **** Incremental Build of configuration Debug for project syncMain ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/kevin/myCode/microBlaze1-200t/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IE:/kevin/myCode/microBlaze200/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 In file included from ../src/helloworld.c:28:
-E:/kevin/myCode/microBlaze1-200t/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include/xbasic_types.h:102:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+E:/kevin/myCode/microBlaze200/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include/xbasic_types.h:102:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
   102 | #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
       |  ^~~~~~~
-E:/kevin/myCode/microBlaze1-200t/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include/xbasic_types.h:103:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+E:/kevin/myCode/microBlaze200/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include/xbasic_types.h:103:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
   103 | #warning  Please refer the Standalone BSP UG647 for further details
       |  ^~~~~~~
 ../src/helloworld.c: In function 'ud485RxPrg':
@@ -85,12 +85,17 @@ E:/kevin/myCode/microBlaze1-200t/vitisJson/syncBlaze/export/syncBlaze/sw/syncBla
 ' '
 'Building file: ../src/platform.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IE:/kevin/myCode/microBlaze1-200t/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IE:/kevin/myCode/microBlaze200/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
 'Finished building: ../src/platform.c'
+' '
+'Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -IE:/kevin/myCode/microBlaze200/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+'Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c'
 ' '
 'Building target: syncMain.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/kevin/myCode/microBlaze1-200t/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "syncMain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/kevin/myCode/microBlaze200/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "syncMain.elf"  ./src/helloworld.o ./src/platform.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: syncMain.elf'
 ' '
 'Invoking: MicroBlaze Print Size'

@@ -1,13 +1,14 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x6BE6B64ABB57B9EE",
+      "boundary_crc": "0xAD9809A631A65620",
       "device": "xc7a200tfbg484-2",
       "gen_directory": "../../../../microBlaze1.gen/sources_1/bd/design_1",
       "name": "design_1",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2022.2"
+      "tool_version": "2022.2",
+      "validated": "true"
     },
     "design_tree": {
       "microblaze_0_local_memory": {
@@ -48,8 +49,7 @@
       },
       "rst_clk_wiz_1_100M": "",
       "xlconcat_0": "",
-      "hw0_0": "",
-      "xlconcat_1": ""
+      "hw0_0": ""
     },
     "ports": {
       "rs485Ro": {
@@ -116,8 +116,24 @@
         "type": "clk",
         "direction": "I",
         "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_sysClk50m",
+            "value_src": "default"
+          },
           "FREQ_HZ": {
             "value": "50000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
           }
         }
       },
@@ -2187,12 +2203,6 @@
             "right": "0"
           }
         }
-      },
-      "xlconcat_1": {
-        "vlnv": "xilinx.com:ip:xlconcat:2.1",
-        "xci_name": "design_1_xlconcat_1_0",
-        "xci_path": "ip\\design_1_xlconcat_1_0\\design_1_xlconcat_1_0.xci",
-        "inst_hier_path": "xlconcat_1"
       }
     },
     "interface_nets": {

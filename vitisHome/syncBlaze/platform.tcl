@@ -99,3 +99,26 @@ platform config -updatehw {E:/kevin/myCode/microBlaze1/design_1_wrapper.xsa}
 platform generate -domains 
 platform config -updatehw {E:/kevin/myCode/microBlaze1/design_1_wrapper.xsa}
 platform generate -domains 
+platform active {syncBlaze}
+platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains standalone_domain 
+platform active {syncBlaze}
+platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains 
+platform generate -domains standalone_domain 
+platform generate
+platform active {syncBlaze}
+platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains 
+platform active {syncBlaze}
+platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains standalone_domain 
+platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains 
+platform active {syncBlaze}
+platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains 
+platform generate
+platform active {syncBlaze}
+platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains 

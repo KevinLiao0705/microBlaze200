@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.883883",
-   "Default View_TopLeft":"-268,759",
+   "Default View_ScaleFactor":"1.4104",
+   "Default View_TopLeft":"1653,-35",
    "ExpandedHierarchyInLayout":"",
    "PinnedBlocks":"/microblaze_0_local_memory|/axi_bram_ctrl_0|/axi_gpio_0|/axi_gpio_1|/axi_intc_0|/axi_timer_0|/axi_uartlite_0|/axi_uartlite_1|/axi_uartlite_2|/clk_wiz_1|/mdm_1|/microblaze_0|/microblaze_0_axi_periph|/rst_clk_wiz_1_100M|/xlconcat_0|/hw0_0|",
    "PinnedPorts":"rs485Ro|rs485Di|gpOutA|ledV3|ledV4|rfOutA|hdfoA|laCh|dfOutP|dfOutN|rfInA|dfInP|dfInN|gpsPps|sysClk50m|fibTxA|fibRxA|fibRx1|fibTx1|fibRx3|fibTx3|fibRx5|fibTx5|fibRx7|fibTx7|uartIpcTx2|uartIpcTxH|uartIpcRxH|uartIpcRx2|gpInA|",

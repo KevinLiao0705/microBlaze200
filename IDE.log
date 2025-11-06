@@ -1,0 +1,45 @@
+17:43:58 DEBUG : Logs will be stored at 'E:/kevin/myCode/microBlaze200/IDE.log'.
+17:43:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\kevin\myCode\microBlaze200\temp_xsdb_launch_script.tcl
+17:43:59 INFO  : Registering command handlers for Vitis TCF services
+17:44:00 INFO  : Platform repository initialization has completed.
+17:44:00 INFO  : XSCT server has started successfully.
+17:44:00 INFO  : Successfully done setting XSCT server connection channel  
+17:44:00 INFO  : Successfully done query RDI_DATADIR 
+17:44:00 INFO  : Successfully done setting workspace for the tool. 
+17:44:01 INFO  : plnx-install-location is set to ''
+10:32:52 DEBUG : Logs will be stored at 'E:/kevin/myCode/microBlaze200/IDE.log'.
+10:32:53 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\kevin\myCode\microBlaze200\temp_xsdb_launch_script.tcl
+10:32:53 INFO  : Registering command handlers for Vitis TCF services
+10:32:53 INFO  : Platform repository initialization has completed.
+10:32:54 INFO  : XSCT server has started successfully.
+10:32:54 INFO  : plnx-install-location is set to ''
+10:32:54 INFO  : Successfully done setting XSCT server connection channel  
+10:32:54 INFO  : Successfully done query RDI_DATADIR 
+10:32:54 INFO  : Successfully done setting workspace for the tool. 
+10:33:02 DEBUG : Logs will be stored at 'E:/kevin/myCode/microBlaze200/IDE.log'.
+10:33:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\kevin\myCode\microBlaze200\temp_xsdb_launch_script.tcl
+10:33:04 INFO  : Registering command handlers for Vitis TCF services
+10:33:04 INFO  : Platform repository initialization has completed.
+10:33:04 INFO  : XSCT server has started successfully.
+10:33:05 INFO  : plnx-install-location is set to ''
+10:33:05 INFO  : Successfully done setting XSCT server connection channel  
+10:33:05 INFO  : Successfully done query RDI_DATADIR 
+10:33:05 INFO  : Successfully done setting workspace for the tool. 
+10:05:15 DEBUG : Logs will be stored at 'E:/kevin/myCode/microBlaze200/IDE.log'.
+10:05:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\kevin\myCode\microBlaze200\temp_xsdb_launch_script.tcl
+10:05:16 INFO  : Registering command handlers for Vitis TCF services
+10:05:17 INFO  : Platform repository initialization has completed.
+10:05:17 INFO  : XSCT server has started successfully.
+10:05:17 INFO  : plnx-install-location is set to ''
+10:05:19 INFO  : Successfully done setting XSCT server connection channel  
+10:05:19 INFO  : Successfully done query RDI_DATADIR 
+10:05:19 INFO  : Successfully done setting workspace for the tool. 
+10:05:25 DEBUG : Logs will be stored at 'E:/kevin/myCode/microBlaze200/IDE.log'.
+10:05:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\kevin\myCode\microBlaze200\temp_xsdb_launch_script.tcl
+10:05:26 INFO  : Registering command handlers for Vitis TCF services
+10:05:26 INFO  : Platform repository initialization has completed.
+10:05:27 INFO  : XSCT server has started successfully.
+10:05:27 INFO  : Successfully done setting XSCT server connection channel  
+10:05:27 INFO  : plnx-install-location is set to ''
+10:05:27 INFO  : Successfully done setting workspace for the tool. 
+10:05:27 INFO  : Successfully done query RDI_DATADIR 

@@ -41,67 +41,67 @@ set_property PACKAGE_PIN AB20 [get_ports {rs485Di}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rs485Di}]
 
 ######################################################################
-# ioA0
+# ioA0 RFMA_CKO
 set_property PACKAGE_PIN T4 [get_ports {rfInA[0]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[0]}]
 
-# ioA1
+# ioA1 RFMA_DIO2
 set_property PACKAGE_PIN U3 [get_ports {rfOutA[0]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfOutA[0]}]
 
-# ioA2
+# ioA2 RFMA_DIO1
 set_property PACKAGE_PIN V4 [get_ports {rfInA[1]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[1]}]
 
-# ioA3
+# ioA3 RFMA_D0
 set_property PACKAGE_PIN Y3 [get_ports {rfInA[2]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[2]}]
 
-# ioA4
+# ioA4  RFMB_CKO
 set_property PACKAGE_PIN R2 [get_ports {rfInA[3]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[3]}]
 
-# ioA5
+# ioA5 RFMB_DIO2
 set_property PACKAGE_PIN U1 [get_ports {rfOutA[1]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfOutA[1]}]
 
-# ioA6
+# ioA6 RFMB_DIO1
 set_property PACKAGE_PIN W1 [get_ports {rfInA[4]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[4]}]
 
-# ioA7
+# ioA7 RFMB_D0
 set_property PACKAGE_PIN Y1 [get_ports {rfInA[5]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[5]}]
 
-# ioA8
+# ioA8 RFMA_CKO
 set_property PACKAGE_PIN AB1 [get_ports {rfInA[6]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[6]}]
 
-# ioA9
+# ioA9 RFMA_DIO2
 set_property PACKAGE_PIN AB2 [get_ports {rfOutA[2]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfOutA[2]}]
 
-# ioA10
+# ioA10 RFMA_DIO1
 set_property PACKAGE_PIN W5 [get_ports {rfInA[7]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[7]}]
 
-# ioA11
+# ioA11 RFMA_D0
 set_property PACKAGE_PIN R6 [get_ports {rfInA[8]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[8]}]
 
-# ioA12
+# ioA12 RFMB_CKO
 set_property PACKAGE_PIN W6 [get_ports {rfInA[9]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[9]}]
 
-# ioA13
+# ioA13 RFMB_DIO2
 set_property PACKAGE_PIN Y6 [get_ports {rfOutA[3]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfOutA[3]}]
 
-# ioA14
+# ioA14 RFMB_DIO1
 set_property PACKAGE_PIN W7 [get_ports {rfInA[10]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[10]}]
 
-# ioA15
+# ioA15 RFMB_D0
 set_property PACKAGE_PIN V8 [get_ports {rfInA[11]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {rfInA[11]}]
 

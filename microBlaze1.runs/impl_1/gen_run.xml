@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a200tfbg484-2" LaunchTime="1752473704">
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg484-2" LaunchTime="1759716922">
   <File Type="ROUTE-PWR" Name="design_1_wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
   <File Type="BITSTR-MMI" Name="design_1_wrapper.mmi"/>
@@ -199,9 +199,7 @@
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_uartlite_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_uartlite_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_timer_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_hw0_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_gpio_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_auto_pc_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_clk_wiz_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_mdm_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_microblaze_0_0"/>
@@ -210,4 +208,5 @@
   <BlockFileSet Type="BlockSrcs" Name="design_1_dlmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_hw0_0_0"/>
 </GenRun>

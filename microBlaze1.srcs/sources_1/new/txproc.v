@@ -47,7 +47,47 @@ module TXPROC(
         txEndTime=1600;
     end       
         
-    //======================================================================    
+    //======================================================================
+
+    always @(posedge clk160m_i) begin
+    //========================
+        if(txSync4mTimeCnt<2)
+            txSync4mClk<=1'b0;
+        else if(txSync4mTimeCnt<22)
+            txSync4mClk<=1'b1;
+        else
+            txSync4mClk<=1'b0;
+    //========================
+        if(txSync4mTimeCnt==39)
+            txSync4mTimeCnt<=0;
+        else    
+            txSync4mTimeCnt<=txSync4mTimeCnt+1;
+        if(txSyncClkEn_i)begin
+            if(!txSyncClk_i) 
+                txClkHCnt<=7'b00000000;
+            else begin 
+                if(!txClkHCnt[7])
+                    txClkHCnt<=txClkHCnt+1;
+            end 
+            if(txClkHCnt==8'b00001010)begin
+                if(txSync4mTimeCnt==6'b000000)
+                    txSync4mTimeCnt<=1;
+                else if(txSync4mTimeCnt==38)
+                    txSync4mTimeCnt<=0;
+                else if(txSync4mTimeCnt==39)
+                    txSync4mTimeCnt<=1;
+                else if(txSync4mTimeCnt<20)
+                    txSync4mTimeCnt<=txSync4mTimeCnt;   
+                else
+                    txSync4mTimeCnt<=txSync4mTimeCnt+2;
+            end                   
+        end 
+    end 
+
+
+
+    /*
+        
     always @(posedge clk160m_i) begin
     //========================
         if(txSync4mTimeCnt<10)
@@ -64,17 +104,19 @@ module TXPROC(
                 txClkHCnt<=txClkHCnt+1;
         end        
     //========================
-        if(txSyncClkEn_i && txSyncClk_i==1 && txClkHCnt==8'b00001010)begin
-            if(txSync4mTimeCnt==6'b000000)
-                txSync4mTimeCnt<=1;
-            else if(txSync4mTimeCnt==38)
-                txSync4mTimeCnt<=0;
-            else if(txSync4mTimeCnt==39)
-                txSync4mTimeCnt<=1;
-            else if(txSync4mTimeCnt<20)
-                txSync4mTimeCnt<=txSync4mTimeCnt;   
-            else
-                txSync4mTimeCnt<=txSync4mTimeCnt+2;
+        if(txSyncClkEn_i)begin
+            if(txClkHCnt==8'b00001010)begin
+                if(txSync4mTimeCnt==6'b000000)
+                    txSync4mTimeCnt<=1;
+                else if(txSync4mTimeCnt==38)
+                    txSync4mTimeCnt<=0;
+                else if(txSync4mTimeCnt==39)
+                    txSync4mTimeCnt<=1;
+                else if(txSync4mTimeCnt<20)
+                    txSync4mTimeCnt<=txSync4mTimeCnt;   
+                else
+                    txSync4mTimeCnt<=txSync4mTimeCnt+2;
+            end                    
         end 
         else begin
             if(txSync4mTimeCnt==39)
@@ -84,7 +126,7 @@ module TXPROC(
         end
     end 
     //======================================================================    
-    
+        */
     
       reg[9:0] txBitCnt;
       reg[4:0] dataGateHTime;

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="0x2000"/>
+		<item key="selection" value="laGroup"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="0x2000"/>
-			<item value="&lt;&lt;debug"/>
-			<item value="uart"/>
-			<item value="lduart"/>
-			<item value="pusleSourceFrom"/>
+			<item value="laGroup"/>
+			<item value="conRxA"/>
+			<item value="load"/>
+			<item value="rmem"/>
+			<item value="rmem["/>
+			<item value="rnen[3]"/>
+			<item value="rnen[0]"/>
+			<item value="timer0InterruptPrg"/>
+			<item value="laGroupCh"/>
+			<item value="transbram"/>
+			<item value="uartRxChk"/>
+			<item value="la"/>
 			<item value="transBram"/>
 			<item value="fpgaId"/>
-			<item value=" fpgaId"/>
-			<item value=" fpgaId="/>
-			<item value=" fpgaId=buf"/>
-			<item value="fpgaid"/>
-			<item value="udUartRx"/>
-			<item value="tickIpc"/>
-			<item value="tickSub"/>
-			<item value="tictSub"/>
+			<item value="fpg aId"/>
 		</list>
 		<list key="replacehistory">
 		</list>

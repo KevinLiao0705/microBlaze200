@@ -1,6 +1,6 @@
-21:21:14 **** Incremental Build of configuration Debug for project syncMain ****
+10:08:48 **** Incremental Build of configuration Debug for project syncMain ****
 make all 
 make: Nothing to be done for 'all'.
 
-21:21:14 Build Finished (took 354ms)
+10:08:48 Build Finished (took 87ms)
 

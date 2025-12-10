@@ -8,5 +8,5 @@
 	<item key="syncMain_system-partial_bit" value="false"/>
 	<item key="syncMain_system-skip_rev_check" value="false"/>
 	<item key="programfpga.sdxproject" value="syncMain_system"/>
-	<item key="syncMain_system-microblaze_0-initElf" value="E:\kevin\myCode\microBlaze1\vitisJson\syncMain\Debug\syncMain.elf"/>
+	<item key="syncMain_system-microblaze_0-initElf" value="E:\kevin\myCode\microBlaze200\vitisJson\syncMain\Debug\syncMain.elf"/>
 </section>

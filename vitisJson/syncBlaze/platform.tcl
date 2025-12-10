@@ -214,3 +214,7 @@ platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
 platform generate -domains standalone_domain 
 platform config -updatehw {E:/kevin/myCode/microBlaze100/design_1_wrapper.xsa}
 platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains 
+platform active {syncBlaze}
+platform config -updatehw {E:/kevin/myCode/microBlaze200/design_1_wrapper.xsa}
+platform generate -domains 

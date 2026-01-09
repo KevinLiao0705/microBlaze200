@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="transBram"/>
+		<item key="selection" value="memRx"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
-		<item key="incremental" value="true"/>
+		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="TRANSbRAM"/>
-			<item value="TRAN"/>
-			<item value="LACHR"/>
-			<item value="TRABS"/>
-			<item value="transBram"/>
-			<item value="lachr"/>
-			<item value="tra"/>
-			<item value="mainLoop"/>
-			<item value="udUartRxPrg0"/>
+			<item value="memRx"/>
+			<item value="tickCtr"/>
 			<item value="udUartRx"/>
-			<item value="mem"/>
-			<item value="MEM"/>
-			<item value="nowTime"/>
-			<item value="first_f"/>
-			<item value="iMon"/>
+			<item value="udUart"/>
+			<item value="tick"/>
+			<item value="fpgaId"/>
+			<item value="tickSub"/>
+			<item value="udUartRxPrg"/>
+			<item value="uartRx"/>
+			<item value="dec"/>
+			<item value="timer0InterruptPrg"/>
+			<item value="rmem"/>
+			<item value="transbram"/>
+			<item value="tansBram"/>
+			<item value="conRxCntA["/>
 		</list>
 		<list key="replacehistory">
+			<item value="m"/>
 			<item value=""/>
 			<item value="udp-&gt;"/>
 		</list>

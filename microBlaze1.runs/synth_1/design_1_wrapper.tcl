@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 6
-set_msg_config -id {HDL-1065} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a200tfbg484-2
 
@@ -125,10 +123,10 @@ set_property used_in_implementation false [get_files -all e:/kevin/myCode/microB
 set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0_ooc_debug.xdc]
 set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_board.xdc]
 set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0.xdc]
 set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/design_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/data/mb_bootloop_le.elf]
 

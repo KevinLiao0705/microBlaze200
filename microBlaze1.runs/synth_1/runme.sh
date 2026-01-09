@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=D:/vitis/Vitis/2022.2/bin;D:/vitis/Vivado/2022.2/ids_lite/ISE/bin/nt64;D:/vitis/Vivado/2022.2/ids_lite/ISE/lib/nt64:D:/vitis/Vivado/2022.2/bin
+  PATH=D:/Xilinx202202/Vitis/2022.2/bin;D:/Xilinx202202/Vivado/2022.2/ids_lite/ISE/bin/nt64;D:/Xilinx202202/Vivado/2022.2/ids_lite/ISE/lib/nt64:D:/Xilinx202202/Vivado/2022.2/bin
 else
-  PATH=D:/vitis/Vitis/2022.2/bin;D:/vitis/Vivado/2022.2/ids_lite/ISE/bin/nt64;D:/vitis/Vivado/2022.2/ids_lite/ISE/lib/nt64:D:/vitis/Vivado/2022.2/bin:$PATH
+  PATH=D:/Xilinx202202/Vitis/2022.2/bin;D:/Xilinx202202/Vivado/2022.2/ids_lite/ISE/bin/nt64;D:/Xilinx202202/Vivado/2022.2/ids_lite/ISE/lib/nt64:D:/Xilinx202202/Vivado/2022.2/bin:$PATH
 fi
 export PATH
 

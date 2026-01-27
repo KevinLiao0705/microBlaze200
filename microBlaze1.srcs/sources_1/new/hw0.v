@@ -915,9 +915,14 @@ output:
         
         
         
+        if(bmem[8][11:8]==15)
+            s1FibRxIn_f=hdfioA[1];
+        else    
+            s1FibRxIn_f = fibRxA[0];
+        s1RfRxIn_f = rfInA[4];
+        
     	//ibuf+=wgRxFrom<<12;		//0:rf 1:fiber 2:meter fiber,3:local
         if(bmem[13][13:12]==0)begin//wgRxFrom rf
-            s1RfRxIn_f = rfInA[4];
             s1WgRxIn_f = rfInA[4];
             s1WgRxData0_reg=s1RfRxData0_wb;
             s1WgRxData1_reg=s1RfRxData1_wb;
@@ -926,14 +931,10 @@ output:
             s1WgRxPack_f=s1RfRxPack_w;
         end    
         if(bmem[13][13:12]==1)begin//wgRxFrom fib
-            if(bmem[8][11:8]==15)begin
-                s1FibRxIn_f=hdfioA[1];
+            if(bmem[8][11:8]==15)
                 s1WgRxIn_f =hdfioA[1];
-            end    
-            else begin    
-                s1FibRxIn_f = fibRxA[0];
+            else    
                 s1WgRxIn_f =fibRxA[0];
-            end
             s1WgRxData0_reg=s1FibRxData0_wb;
             s1WgRxData1_reg=s1FibRxData1_wb;
             s1WgRxData2_reg=s1FibRxData2_wb;
@@ -1046,12 +1047,28 @@ output:
         //output [3:0] fibTxA,    		
         //input   wire [3:0] fibRxA,
         if(bmem[13][7:6]==0)begin//syncTxMode
-            rf1TxData=hostS1TxData_w;
-            rf2TxData=hostS2TxData_w;
-            fib1TxData=hostS1TxData_w;
-            fib2TxData=hostS2TxData_w;
-            fib3TxData=hostS1TxData_w;
-            fib4TxData=hostS2TxData_w;
+            if(bmem[13][23:23]==1)begin
+                rf1TxData=hostS1TxData_w;
+                fib1TxData=hostS1TxData_w;
+            end
+            else begin
+                rf1TxData=0;
+                fib1TxData=0;
+            end
+            
+            if(bmem[13][24:24]==1)begin
+                rf2TxData=hostS2TxData_w;
+                fib2TxData=hostS2TxData_w;
+            end
+            else begin
+                rf2TxData=0;
+                fib2TxData=0;
+            end
+            
+            
+            
+            fib3TxData=0;
+            fib4TxData=0;
         end
         if(bmem[13][7:6]==1)begin//sub
             rf1TxData=s1SyncTxData_w;

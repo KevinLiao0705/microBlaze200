@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Mon Jan 26 15:47:15 2026
+| Date         : Mon Feb  9 18:06:50 2026
 | Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
 | Design       : design_1_wrapper
@@ -23,17 +23,16 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 1026
-+-----------+------------------+--------------------------------+------------+
-| Rule      | Severity         | Description                    | Violations |
-+-----------+------------------+--------------------------------+------------+
-| TIMING-17 | Critical Warning | Non-clocked sequential cell    | 1000       |
-| HPDR-2    | Warning          | Port pin INOUT inconsistency   | 14         |
-| LUTAR-1   | Warning          | LUT drives async reset alert   | 2          |
-| TIMING-9  | Warning          | Unknown CDC Logic              | 1          |
-| TIMING-20 | Warning          | Non-clocked latch              | 8          |
-| LATCH-1   | Advisory         | Existing latches in the design | 1          |
-+-----------+------------------+--------------------------------+------------+
+             Violations found: 1024
++-----------+------------------+----------------------------------+------------+
+| Rule      | Severity         | Description                      | Violations |
++-----------+------------------+----------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell      | 1000       |
+| HPDR-1    | Warning          | Port pin direction inconsistency | 20         |
+| HPDR-2    | Warning          | Port pin INOUT inconsistency     | 2          |
+| LUTAR-1   | Warning          | LUT drives async reset alert     | 1          |
+| TIMING-9  | Warning          | Unknown CDC Logic                | 1          |
++-----------+------------------+----------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
@@ -5037,87 +5036,117 @@ Non-clocked sequential cell
 The clock pin design_1_i/hw0_0/inst/rxSysData1/rxd1_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
+HPDR-1#1 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[0] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[0]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#2 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[10] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[10]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#3 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[11] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[11]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#4 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[12] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[12]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#5 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[13] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[13]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#6 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[14] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[14]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#7 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[15] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[15]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#8 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[16] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[16]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#9 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[17] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[17]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#10 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[18] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[18]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#11 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[19] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[19]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#12 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[1] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[1]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#13 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[2] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[2]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#14 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[3] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[3]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#15 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[4] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[4]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#16 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[5] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[5]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#17 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[6] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[6]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#18 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[7] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[7]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#19 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[8] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[8]) connected to this Port, but both were not found.
+Related violations: <none>
+
+HPDR-1#20 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) hdfioA[9] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA[9]) connected to this Port, but both were not found.
+Related violations: <none>
+
 HPDR-2#1 Warning
 Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[0] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[0]) connected to this hierarchical pin/port, but both were not found.
+Hierarchical port(pin) design_1_i/hdfioA[2] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA_OBUF[2]) connected to this hierarchical pin/port, but both were not found.
 Related violations: <none>
 
 HPDR-2#2 Warning
 Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[10] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[10]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#3 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[11] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[11]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#4 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[12] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[12]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#5 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[13] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[13]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#6 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[1] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[1]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#7 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[2] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[2]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#8 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[3] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[3]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#9 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[4] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[4]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#10 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[5] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[5]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#11 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[6] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[6]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#12 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[7] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[7]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#13 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[8] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[8]) connected to this hierarchical pin/port, but both were not found.
-Related violations: <none>
-
-HPDR-2#14 Warning
-Port pin INOUT inconsistency  
-Hierarchical port(pin) design_1_i/hdfioA[9] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (design_1_i/hdfioA[9]) connected to this hierarchical pin/port, but both were not found.
+Hierarchical port(pin) design_1_i/hdfioA[6] direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (hdfioA_OBUF[6]) connected to this hierarchical pin/port, but both were not found.
 Related violations: <none>
 
 LUTAR-1#1 Warning
-LUT drives async reset alert  
-LUT cell design_1_i/hw0_0/inst/hostWgRfFreq_reg[5]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/hw0_0/inst/hostWgRfFreq_reg[0]/CLR,
-design_1_i/hw0_0/inst/hostWgRfFreq_reg[1]/CLR,
-design_1_i/hw0_0/inst/hostWgRfFreq_reg[2]/CLR,
-design_1_i/hw0_0/inst/hostWgRfFreq_reg[3]/CLR,
-design_1_i/hw0_0/inst/hostWgRfFreq_reg[4]/CLR
-design_1_i/hw0_0/inst/hostWgRfFreq_reg[5]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
-Related violations: <none>
-
-LUTAR-1#2 Warning
 LUT drives async reset alert  
 LUT cell design_1_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/sel_n_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) design_1_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/sel_n_reg/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
 Related violations: <none>
@@ -5125,51 +5154,6 @@ Related violations: <none>
 TIMING-9#1 Warning
 Unknown CDC Logic  
 One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
-Related violations: <none>
-
-TIMING-20#1 Warning
-Non-clocked latch  
-The latch design_1_i/hw0_0/inst/hostS1RxIn_f_reg cannot be properly analyzed as its control pin design_1_i/hw0_0/inst/hostS1RxIn_f_reg/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#2 Warning
-Non-clocked latch  
-The latch design_1_i/hw0_0/inst/hostS2RxIn_f_reg cannot be properly analyzed as its control pin design_1_i/hw0_0/inst/hostS2RxIn_f_reg/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#3 Warning
-Non-clocked latch  
-The latch design_1_i/hw0_0/inst/rf1TxData_reg cannot be properly analyzed as its control pin design_1_i/hw0_0/inst/rf1TxData_reg/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#4 Warning
-Non-clocked latch  
-The latch design_1_i/hw0_0/inst/rf2TxData_reg cannot be properly analyzed as its control pin design_1_i/hw0_0/inst/rf2TxData_reg/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#5 Warning
-Non-clocked latch  
-The latch design_1_i/hw0_0/inst/rxSysData2_in_f_reg cannot be properly analyzed as its control pin design_1_i/hw0_0/inst/rxSysData2_in_f_reg/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#6 Warning
-Non-clocked latch  
-The latch design_1_i/hw0_0/inst/rxSysData3_in_f_reg cannot be properly analyzed as its control pin design_1_i/hw0_0/inst/rxSysData3_in_f_reg/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#7 Warning
-Non-clocked latch  
-The latch design_1_i/hw0_0/inst/rxSysData4_in_f_reg cannot be properly analyzed as its control pin design_1_i/hw0_0/inst/rxSysData4_in_f_reg/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#8 Warning
-Non-clocked latch  
-The latch design_1_i/hw0_0/inst/s1LocalRxIn_f_reg cannot be properly analyzed as its control pin design_1_i/hw0_0/inst/s1LocalRxIn_f_reg/G is not reached by a timing clock
-Related violations: <none>
-
-LATCH-1#1 Advisory
-Existing latches in the design  
-There are 14 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
 Related violations: <none>
 
 

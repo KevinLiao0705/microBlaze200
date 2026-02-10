@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Mon Jan 26 15:47:08 2026
+| Date         : Mon Feb  9 18:06:43 2026
 | Host         : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
 | Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
 | Design       : design_1_wrapper
@@ -24,14 +24,13 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 22
+             Violations found: 23
 +----------+----------+-----------------------------------------------------+------------+
 | Rule     | Severity | Description                                         | Violations |
 +----------+----------+-----------------------------------------------------+------------+
 | CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
-| PDRC-153 | Warning  | Gated clock check                                   | 5          |
 | PLIO-3   | Warning  | Placement Constraints Check for IO constraints      | 2          |
-| RPBF-3   | Warning  | IO port buffering is incomplete                     | 14         |
+| RPBF-3   | Warning  | IO port buffering is incomplete                     | 20         |
 +----------+----------+-----------------------------------------------------+------------+
 
 2. REPORT DETAILS
@@ -47,31 +46,6 @@ Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_des
  #where value2 is the voltage provided to configuration bank 0
 
 Refer to the device configuration user guide for more information.
-Related violations: <none>
-
-PDRC-153#1 Warning
-Gated clock check  
-Net design_1_i/hw0_0/inst/hostS1RxIn_f_reg_i_2_n_0 is a gated clock net sourced by a combinational pin design_1_i/hw0_0/inst/hostS1RxIn_f_reg_i_2/O, cell design_1_i/hw0_0/inst/hostS1RxIn_f_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PDRC-153#2 Warning
-Gated clock check  
-Net design_1_i/hw0_0/inst/hostS2RxIn_f_reg_i_2_n_0 is a gated clock net sourced by a combinational pin design_1_i/hw0_0/inst/hostS2RxIn_f_reg_i_2/O, cell design_1_i/hw0_0/inst/hostS2RxIn_f_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PDRC-153#3 Warning
-Gated clock check  
-Net design_1_i/hw0_0/inst/rf2TxData_reg_i_2_n_0 is a gated clock net sourced by a combinational pin design_1_i/hw0_0/inst/rf2TxData_reg_i_2/O, cell design_1_i/hw0_0/inst/rf2TxData_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PDRC-153#4 Warning
-Gated clock check  
-Net design_1_i/hw0_0/inst/rxSysData4_in_f__0 is a gated clock net sourced by a combinational pin design_1_i/hw0_0/inst/rxSysData4_in_f_reg_i_1/O, cell design_1_i/hw0_0/inst/rxSysData4_in_f_reg_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PDRC-153#5 Warning
-Gated clock check  
-Net design_1_i/hw0_0/inst/s1LocalRxIn_f_reg_i_2_n_0 is a gated clock net sourced by a combinational pin design_1_i/hw0_0/inst/s1LocalRxIn_f_reg_i_2/O, cell design_1_i/hw0_0/inst/s1LocalRxIn_f_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PLIO-3#1 Warning
@@ -111,45 +85,75 @@ Related violations: <none>
 
 RPBF-3#6 Warning
 IO port buffering is incomplete  
-Device port hdfioA[1] expects both input and output buffering but the buffers are incomplete.
+Device port hdfioA[14] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>
 
 RPBF-3#7 Warning
 IO port buffering is incomplete  
-Device port hdfioA[2] expects both input and output buffering but the buffers are incomplete.
+Device port hdfioA[15] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>
 
 RPBF-3#8 Warning
 IO port buffering is incomplete  
-Device port hdfioA[3] expects both input and output buffering but the buffers are incomplete.
+Device port hdfioA[16] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>
 
 RPBF-3#9 Warning
 IO port buffering is incomplete  
-Device port hdfioA[4] expects both input and output buffering but the buffers are incomplete.
+Device port hdfioA[17] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>
 
 RPBF-3#10 Warning
 IO port buffering is incomplete  
-Device port hdfioA[5] expects both input and output buffering but the buffers are incomplete.
+Device port hdfioA[18] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>
 
 RPBF-3#11 Warning
 IO port buffering is incomplete  
-Device port hdfioA[6] expects both input and output buffering but the buffers are incomplete.
+Device port hdfioA[19] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>
 
 RPBF-3#12 Warning
 IO port buffering is incomplete  
-Device port hdfioA[7] expects both input and output buffering but the buffers are incomplete.
+Device port hdfioA[1] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>
 
 RPBF-3#13 Warning
 IO port buffering is incomplete  
-Device port hdfioA[8] expects both input and output buffering but the buffers are incomplete.
+Device port hdfioA[2] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>
 
 RPBF-3#14 Warning
+IO port buffering is incomplete  
+Device port hdfioA[3] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#15 Warning
+IO port buffering is incomplete  
+Device port hdfioA[4] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#16 Warning
+IO port buffering is incomplete  
+Device port hdfioA[5] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#17 Warning
+IO port buffering is incomplete  
+Device port hdfioA[6] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#18 Warning
+IO port buffering is incomplete  
+Device port hdfioA[7] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#19 Warning
+IO port buffering is incomplete  
+Device port hdfioA[8] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#20 Warning
 IO port buffering is incomplete  
 Device port hdfioA[9] expects both input and output buffering but the buffers are incomplete.
 Related violations: <none>

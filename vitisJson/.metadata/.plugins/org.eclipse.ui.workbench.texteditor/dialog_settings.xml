@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="slotDataAA"/>
+		<item key="selection" value="commOkRateA"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="slotDataAA"/>
-			<item value="warnUpTime"/>
-			<item value="fpgaId"/>
-			<item value="memTxPrg"/>
-			<item value="udHostS1Syn"/>
-			<item value="SyncRxPrg1"/>
-			<item value="udHostS1SyncUart"/>
-			<item value="udSxSync"/>
-			<item value="udSxSyncUart"/>
-			<item value="udSyncRxPrg0"/>
-			<item value="udUartRxPrg"/>
-			<item value="udFib"/>
-			<item value="udUart"/>
-			<item value="ud485RxPrg"/>
-			<item value="udRxPrg"/>
+			<item value="commOkRateA"/>
+			<item value="commRx"/>
+			<item value="loadUdIpc"/>
+			<item value="tickIpc"/>
+			<item value="commOkRate"/>
+			<item value="commOk_rate"/>
+			<item value="commTx"/>
+			<item value="sub1RxRate"/>
+			<item value="b3"/>
+			<item value="0xB"/>
+			<item value="rxPrg"/>
+			<item value="txStatus"/>
+			<item value="load"/>
+			<item value="syncTx"/>
+			<item value="loadUdSync"/>
 		</list>
 		<list key="replacehistory">
 			<item value="addr"/>

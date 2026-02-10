@@ -23,6 +23,7 @@
 module RXPROC(
         input 					    clk160m_i,
         input                       rxData_i,
+        input[1:0]                  chkId_i,
         //==================================
         output                      rxClk4m_o,
         output                      rxPack_o,
@@ -116,11 +117,13 @@ module RXPROC(
             if(rxClkHTime==5)
                 rxchk<=rxchk+rxd3;
 			if(rxClkHTime==9 && rxchk==rxd4)begin
-                rxPackTime<=0;
-                rxData0<=rxd0;
-                rxData1<=rxd1;
-                rxData2<=rxd2;
-                rxData3<=rxd3;
+			    if(rxd1[13:12]==chkId_i)begin 
+                    rxPackTime<=0;
+                    rxData0<=rxd0;
+                    rxData1<=rxd1;
+                    rxData2<=rxd2;
+                    rxData3<=rxd3;
+                end              
             end	
 		end
 	end	 

@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
 // Date        : Mon Jul 14 14:12:43 2025
 // Host        : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_1/design_1_axi_bram_ctrl_0_1_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_axi_bram_ctrl_0_1 -prefix
+//               design_1_axi_bram_ctrl_0_1_ design_1_axi_bram_ctrl_0_1_stub.v
 // Design      : design_1_axi_bram_ctrl_0_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a200tfbg484-2

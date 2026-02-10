@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Jan 26 15:40:17 2026" VIVADOVERSION="2022.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Feb  9 17:59:58 2026" VIVADOVERSION="2022.2">
 
   <SYSTEMINFO ARCH="artix7" DEVICE="7a200t" NAME="design_1" PACKAGE="fbg484" SPEEDGRADE="-2"/>
 
@@ -156,14 +156,14 @@
         <CONNECTION INSTANCE="axi_gpio_1" PORT="gpio_io_i"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="IO" LEFT="13" NAME="hdfioA" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_hdfioA">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="hw0_0" PORT="hdfioA"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT DIR="O" NAME="wgRfOut" SIGIS="undef" SIGNAME="hw0_0_wgRfOut">
       <CONNECTIONS>
         <CONNECTION INSTANCE="hw0_0" PORT="wgRfOut"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" LEFT="19" NAME="hdfioA" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_hdfioA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hw0_0" PORT="hdfioA"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -5674,7 +5674,7 @@
             <CONNECTION INSTANCE="External_Ports" PORT="laCh"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="13" NAME="hdfioA" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_hdfioA">
+        <PORT DIR="IO" LEFT="19" NAME="hdfioA" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_hdfioA">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="hdfioA"/>
           </CONNECTIONS>

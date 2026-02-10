@@ -131,7 +131,7 @@ input wire [7 : 0] inpChkA;
 output wire wgRfOut;
 output wire [7 : 0] hdfoA;
 output wire [15 : 0] laCh;
-input wire [13 : 0] hdfioA;
+inout wire [19 : 0] hdfioA;
 input wire [15 : 0] dfInP;
 input wire [15 : 0] dfInN;
 output wire [7 : 0] dfOutP;

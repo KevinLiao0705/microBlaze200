@@ -1,10 +1,10 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
--- Date        : Mon Jul 14 14:11:30 2025
+-- Date        : Mon Jul 14 14:11:29 2025
 -- Host        : DESKTOP-V5UHSH2 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               e:/kevin/myCode/microBlaze200/microBlaze1.gen/sources_1/bd/design_1/ip/design_1_axi_intc_0_0/design_1_axi_intc_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_axi_intc_0_0 -prefix
+--               design_1_axi_intc_0_0_ design_1_axi_intc_0_0_sim_netlist.vhdl
 -- Design      : design_1_axi_intc_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -105,8 +105,6 @@ entity design_1_axi_intc_0_0_address_decoder is
     \CIE_GEN.CIE_BIT_GEN[0].cie_reg[0]\ : in STD_LOGIC;
     Bus_RNW_reg_reg_8 : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_intc_0_0_address_decoder : entity is "address_decoder";
 end design_1_axi_intc_0_0_address_decoder;
 
 architecture STRUCTURE of design_1_axi_intc_0_0_address_decoder is
@@ -1344,8 +1342,6 @@ entity design_1_axi_intc_0_0_intc_core is
     s_axi_wdata : in STD_LOGIC_VECTOR ( 7 downto 0 );
     bus2ip_wrce : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_intc_0_0_intc_core : entity is "intc_core";
 end design_1_axi_intc_0_0_intc_core;
 
 architecture STRUCTURE of design_1_axi_intc_0_0_intc_core is
@@ -3003,8 +2999,6 @@ entity design_1_axi_intc_0_0_slave_attachment is
     p_0_in15_in : in STD_LOGIC;
     \CIE_GEN.CIE_BIT_GEN[0].cie_reg[0]\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_intc_0_0_slave_attachment : entity is "slave_attachment";
 end design_1_axi_intc_0_0_slave_attachment;
 
 architecture STRUCTURE of design_1_axi_intc_0_0_slave_attachment is
@@ -3974,8 +3968,6 @@ entity design_1_axi_intc_0_0_axi_lite_ipif is
     p_0_in15_in : in STD_LOGIC;
     \CIE_GEN.CIE_BIT_GEN[0].cie_reg[0]\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_intc_0_0_axi_lite_ipif : entity is "axi_lite_ipif";
 end design_1_axi_intc_0_0_axi_lite_ipif;
 
 architecture STRUCTURE of design_1_axi_intc_0_0_axi_lite_ipif is
@@ -4168,8 +4160,6 @@ entity design_1_axi_intc_0_0_axi_intc is
   attribute C_S_AXI_ADDR_WIDTH of design_1_axi_intc_0_0_axi_intc : entity is 9;
   attribute C_S_AXI_DATA_WIDTH : integer;
   attribute C_S_AXI_DATA_WIDTH of design_1_axi_intc_0_0_axi_intc : entity is 32;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_intc_0_0_axi_intc : entity is "axi_intc";
   attribute hdl : string;
   attribute hdl of design_1_axi_intc_0_0_axi_intc : entity is "VHDL";
   attribute imp_netlist : string;

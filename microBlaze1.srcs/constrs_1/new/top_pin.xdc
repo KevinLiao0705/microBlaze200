@@ -373,6 +373,32 @@ set_property IOSTANDARD LVCMOS25 [get_ports {hdfioA[12]}]
 set_property PACKAGE_PIN K21 [get_ports {hdfioA[13]}]
 set_property IOSTANDARD LVCMOS25 [get_ports {hdfioA[13]}]
 
+# ioB14
+set_property PACKAGE_PIN L21 [get_ports {hdfioA[14]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {hdfioA[14]}]
+
+# ioB15
+set_property PACKAGE_PIN M21 [get_ports {hdfioA[15]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {hdfioA[15]}]
+
+# ioB16
+set_property PACKAGE_PIN K19 [get_ports {hdfioA[16]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {hdfioA[16]}]
+
+# ioB17
+set_property PACKAGE_PIN L18 [get_ports {hdfioA[17]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {hdfioA[17]}]
+
+# ioB18
+set_property PACKAGE_PIN N17 [get_ports {hdfioA[18]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {hdfioA[18]}]
+
+# ioB19
+set_property PACKAGE_PIN N18 [get_ports {hdfioA[19]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {hdfioA[19]}]
+
+
+
 
 ############################################################################################
 # DF8 L11 laCh0, laCh2

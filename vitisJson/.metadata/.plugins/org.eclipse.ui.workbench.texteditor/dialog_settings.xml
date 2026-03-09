@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="commOkRateA"/>
+		<item key="selection" value="mem[6]"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="commOkRateA"/>
-			<item value="commRx"/>
-			<item value="loadUdIpc"/>
-			<item value="tickIpc"/>
-			<item value="commOkRate"/>
-			<item value="commOk_rate"/>
-			<item value="commTx"/>
-			<item value="sub1RxRate"/>
-			<item value="b3"/>
-			<item value="0xB"/>
-			<item value="rxPrg"/>
-			<item value="txStatus"/>
-			<item value="load"/>
-			<item value="syncTx"/>
-			<item value="loadUdSync"/>
+			<item value="mem[6]"/>
+			<item value="transBram"/>
+			<item value="bmem"/>
+			<item value="wgRxFrom"/>
+			<item value="hostS1RxFrom"/>
+			<item value="chTimeFineTune"/>
+			<item value="s1Local"/>
+			<item value="s1Lock"/>
+			<item value="jj"/>
+			<item value="ddd"/>
+			<item value="mainLoop"/>
+			<item value="syncMemRxGet"/>
+			<item value="uartByteDec"/>
+			<item value="loadSyncStatus"/>
+			<item value="fibMemTxPrg"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 			<item value="addr"/>
 			<item value="m"/>
-			<item value=""/>
 			<item value="udp-&gt;"/>
 		</list>
 	</section>

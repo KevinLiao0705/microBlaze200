@@ -72,6 +72,7 @@ u16 slotDeviceId = 0x2536;
 
 typedef struct _uartDataSt
 {
+	u8 id;
 	u8 txEnCode;
 	u8 txBuffer[txBufferSize_k];
 	u8 txTmp[txBufferSize_k * 2];
@@ -395,6 +396,10 @@ typedef struct radarDataSt
 	u8 ioLdfo;
 	u8 fiberPointBuf[4][64];
 	u32 subStatusA[2];
+	u16 iZeroTh;
+	u8 iSumShift;
+	u16 i32Th;
+	u16 i50Th;
 
 
 
@@ -483,6 +488,7 @@ static XUartLite uart1Obj;
 u32 prePulseCnt=0;
 u32 outFlag = 0;
 u32 inFlag = 0xffffffff;
+
 UartData udIpc;
 UartData ud485;
 UartData udFib[4];
@@ -492,6 +498,8 @@ UartData udHostS1Sync;
 UartData udHostS2Sync;
 
 
+
+u8 noSyncConTime=0;
 
 u32 nowTime=0;
 u32 timerBuf = 0;
@@ -801,6 +809,10 @@ void udSyncRxPrg(UartData *udp,int id){
 	u8 i8;
 	int inx = 0;
 
+	if(udp->rxBuffer[23]!=3)
+		i8=udp->rxBuffer[23];
+
+
 	u16 deviceId = getBufferWord(&inx, udp->rxBuffer);
 	u16 serialId = getBufferWord(&inx, udp->rxBuffer);
 	u16 groupId = getBufferWord(&inx, udp->rxBuffer);
@@ -810,7 +822,6 @@ void udSyncRxPrg(UartData *udp,int id){
 	u16 para1 = getBufferWord(&inx, udp->rxBuffer);
 	u16 para2 = getBufferWord(&inx, udp->rxBuffer);
 	u16 para3 = getBufferWord(&inx, udp->rxBuffer);
-
 
 	if (deviceId != myDeviceId || serialId != mySerialId)
 		return;
@@ -831,7 +842,11 @@ void udSyncRxPrg(UartData *udp,int id){
 
 	syncDataPackCnt[id]+=1;
 	if(id==0){//sx
+		if(udp->rxBufferLen!=0x1e)
+			return;
+		noSyncConTime=0;
 		radarData.conRxCntA[0]=syncDataPackCnt[0];
+		radarData.conRxCntA[2]=para2>>8;
 		bramAddr=15*4;
 		ibuf = readBram32();//
 		if(radarData.fpgaId==1){
@@ -840,11 +855,8 @@ void udSyncRxPrg(UartData *udp,int id){
 		}
 		int nextComm=getBufferWord(&inx, udp->rxBuffer);
 		int nextCommPara0=getBufferWord(&inx, udp->rxBuffer);
-		radarData.commOkRateA[0]=getBufferWord(&inx, udp->rxBuffer);
-		u8 jjj;
-		if(radarData.commOkRateA[0]<995)
-			jjj=1;
 
+		radarData.commOkRateA[0]=getBufferWord(&inx, udp->rxBuffer);
 		//radarData.commOkRateA[1]=getBufferWord(&inx, udp->rxBuffer);
 		return;
 
@@ -1333,13 +1345,17 @@ void udIpcRxPrg(UartData *udp)
 				radarData.meterChDelay = getBufferByte(&inx, udp->rxBuffer);
 
 
-
-
-				//==============================================
-				//getBufferByte(&inx, udp->rxBuffer);
-				//==============================================
-
 				ibuf=getBufferByte(&inx, udp->rxBuffer);//altPackId
+				if(ibuf==0xb0){
+					ibuf=getBufferByte(&inx, udp->rxBuffer);//len
+					if(ibuf==8){
+						radarData.iZeroTh = getBufferWord(&inx, udp->rxBuffer);
+						radarData.iSumShift = getBufferWord(&inx, udp->rxBuffer);
+						radarData.i32Th = getBufferWord(&inx, udp->rxBuffer);
+						radarData.i50Th = getBufferWord(&inx, udp->rxBuffer);
+					}
+					ibuf=getBufferByte(&inx, udp->rxBuffer);//endPackId
+				}
 				if(ibuf==0xab){
 					ibuf=getBufferByte(&inx, udp->rxBuffer);//altPackCnt
 					if(ibuf >=32)
@@ -1689,7 +1705,9 @@ void transBram(){
 	ibuf+=radarData.laGroupCh<<16;
 	writeBram32(ibuf);//mem[5]
 	ibuf=radarData.vgTimeDelay;//hostVgTimeDelay
-	ibuf+=radarData.chTimeFineTune<<20;
+	//ibuf+=radarData.chTimeFineTune<<20;
+	ibuf+=(256)<<20;//localVgTimeDelay
+
 	writeBram32(ibuf);//mem[6]
 	ibuf=radarData.chFiberDelay;
 	ibuf+=radarData.chRfDelay<<16;
@@ -2200,6 +2218,24 @@ int main()
 	udHostS1Sync.fptr = udHostS1SyncRxPrg;
 	udHostS2Sync.fptr = udHostS2SyncRxPrg;
 
+	udIpc.id=0;
+	ud485.id=1;
+	udFib[0].id=2;
+	udFib[0].id=3;
+	udFib[0].id=4;
+	udFib[0].id=5;
+	udSxSync.id=6;
+	udHostS1Sync.id=7;
+	udHostS2Sync.id=8;
+
+
+
+
+
+	radarData.iZeroTh=10000;
+	radarData.iSumShift=5;
+	radarData.i32Th=0x6030;
+	radarData.i50Th=0x6030;
 
 	initBram();
 	radiationOn_f=0;
@@ -2209,6 +2245,7 @@ int main()
 	radarData.pulseGenCh=0;
 	transBram();
 	ledStatus=1;
+
 
 //mainLoop
 	while (1)
@@ -2411,6 +2448,10 @@ void uartByteDec(UartData *udp,u8 revData){
 	int j;
 	int len;
 	int chksum0, chksum1;
+
+
+
+
 	if (revData == 0xEA)
 	{
 		udp->rxBufferCnt = 0;
@@ -2438,6 +2479,10 @@ void uartByteDec(UartData *udp,u8 revData){
 	udp->spcChar_f = 0;
 	len = udp->rxBufferCnt - 2;
 	//==================================
+
+
+
+
 	chksum0 = 0xab;
 	chksum1 = 0;
 	for (j = 0; j < len; j++)
@@ -2608,6 +2653,13 @@ void timerPrg2()
 			}
 
 		}
+
+		if(radarData.fpgaId==1){
+			noSyncConTime++;
+			if(noSyncConTime>10)
+				radarData.commOkRateA[0]=0;
+
+		}
 		if(radarData.fpgaId==15){
 			noMeterMcuTime++;
 			if(noMeterMcuTime>=10){
@@ -2621,6 +2673,7 @@ void timerPrg2()
 				noMeterMcuTime=0;
 			}
 		}
+
 		if(radarData.fpgaId==2){
 			noMeterFpgaTime++;
 			if(noMeterFpgaTime>=10){
@@ -2634,6 +2687,8 @@ void timerPrg2()
 				noMeterFpgaTime=0;
 			}
 		}
+
+
 
 
 }
@@ -2928,16 +2983,19 @@ void loadSyncStatus(UartData *udp,int id){
 	udp->txCmd = 0x3000;	//tick
 	udp->txPara0 =fpgaId;
 	udp->txPara1 = udp->txSerialCnt;
-	udp->txPara2 = radarData.conRxCntA[7]*256+radarData.conRxCntA[6];
-	udp->txPara3 = 0;//sub inx
+	udp->txPara2 = syncDataPackCnt[1]*256+syncDataPackCnt[0];
+	udp->txPara3 = syncDataPackCnt[2];;//sub inx
 	int inx=0;//18
 	if(fpgaId==0){
 		udp->txBuffer[inx++]=(nextCmd)&255;
 		udp->txBuffer[inx++]=(nextCmd>>8)&255;
-		udp->txBuffer[inx++]=(nextCmdPara0)&255;
-		udp->txBuffer[inx++]=(nextCmdPara0>>8)&255;
+		//udp->txBuffer[inx++]=(nextCmdPara0)&255;
+		//udp->txBuffer[inx++]=(nextCmdPara0>>8)&255;
+
+		udp->txBuffer[inx++]=(0xeaeb)&255;
+		udp->txBuffer[inx++]=(0xeaeb>>8);
 		udp->txBuffer[inx++]=(radarData.commOkRateA[0])&255;
-		udp->txBuffer[inx++]=(radarData.commOkRateA[0]>>8)&255;
+		udp->txBuffer[inx++]=(radarData.commOkRateA[0]>>8);
 		udp->txBuffer[inx++]=(radarData.commOkRateA[1])&255;
 		udp->txBuffer[inx++]=(radarData.commOkRateA[1]>>8)&255;
 		if(udp->txPackItemCnt0>=3)
@@ -2971,6 +3029,8 @@ void loadSyncStatus(UartData *udp,int id){
 
 
 	udp->txBuffer[inx++]=0xcd;
+	udp->txBuffer[inx]=inx+18;
+	inx++;
 	udp->txBufferLen = inx;
 	nextCmd=0;
 
@@ -3158,8 +3218,13 @@ void syncMemRxGet(UartData *udp,int inx){
 	bramAddr=((160+inx*32)+syncMemRxCntp[inx])*4;
 	data=readBram32();
 	syncMemRxCntp[inx]+=1;
+
+
 	if(data&0x100)
 		return;
+
+
+
 	if(inx==0){
 		ibuf=preSxRxBuf^data;
 		ibuf&=0xc000;
@@ -3173,7 +3238,6 @@ void syncMemRxGet(UartData *udp,int inx){
 	if(udp->rxStackPtr0>=rxStackBufferSize_k){
 		udp->rxStackPtr0=0;
 	}
-
 
 
 
@@ -3452,7 +3516,6 @@ void loadUdIpcTx(){
 		udp->txBuffer[inx++]=radarData.conRxCntA[17];
 
 		//====================================
-		radarData.commOkRateA[1]=0;
 		udp->txBuffer[inx++]=0xb3;
 		udp->txBuffer[inx++]=4;
 		udp->txBuffer[inx++]=radarData.commOkRateA[0]&255;
@@ -3723,6 +3786,21 @@ void loadUd485Tx(UartData *udp)
 		udp->txBuffer[inx++]=radarData.chRfTxChA[1];
 		udp->txBuffer[inx++]=radarData.chRfRxChA[0];
 		udp->txBuffer[inx++]=radarData.chRfRxChA[1];
+		//==========================================
+		udp->txBuffer[inx++]=0xB0;
+		udp->txBuffer[inx++]=0x08;
+		udp->txBuffer[inx++]=radarData.iZeroTh;
+		udp->txBuffer[inx++]=radarData.iZeroTh>>8;
+		udp->txBuffer[inx++]=radarData.iSumShift;
+		udp->txBuffer[inx++]=0;
+		udp->txBuffer[inx++]=radarData.i32Th;
+		udp->txBuffer[inx++]=radarData.i32Th>>8;
+		udp->txBuffer[inx++]=radarData.i50Th;
+		udp->txBuffer[inx++]=radarData.i50Th>>8;
+
+
+
+
 
 
 		udp->txBufferLen = inx;
@@ -3809,6 +3887,7 @@ void enc_mystm(UartData *udp)
 	encmst(udp, (udp->txChksum0 & 255), 2);
 	encmst(udp, (udp->txChksum1 & 255), 2);
 	encmst(udp, 0xEB, 0);
+
 	udp->txCnt = 0;
 }
 

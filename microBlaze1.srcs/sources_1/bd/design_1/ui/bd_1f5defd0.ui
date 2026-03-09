@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"0.534442",
-   "Default View_TopLeft":"1832,1267",
+   "Default View_TopLeft":"1832,298",
    "ExpandedHierarchyInLayout":"",
    "PinnedBlocks":"/microblaze_0_local_memory|/axi_bram_ctrl_0|/axi_gpio_0|/axi_gpio_1|/axi_intc_0|/axi_timer_0|/axi_uartlite_0|/axi_uartlite_1|/axi_uartlite_2|/clk_wiz_1|/mdm_1|/microblaze_0|/microblaze_0_axi_periph|/rst_clk_wiz_1_100M|/xlconcat_0|/hw0_0|",
    "PinnedPorts":"rs485Ro|rs485Di|gpOutA|ledV3|ledV4|rfOutA|hdfoA|laCh|dfOutP|dfOutN|rfInA|dfInP|dfInN|gpsPps|sysClk50m|fibTxA|fibRxA|fibRx1|fibTx1|fibRx3|fibTx3|fibRx5|fibTx5|fibRx7|fibTx7|uartIpcTx2|uartIpcTxH|uartIpcRxH|uartIpcRx2|gpInA|",
@@ -55,6 +55,7 @@ preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -x 2130 -y 1190 -defaultsOSRD
 preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 900 -y 720 -defaultsOSRD
 preplace inst xlconcat_0 -pg 1 -lvl 2 -x 900 -y 970 -defaultsOSRD
 preplace inst hw0_0 -pg 1 -lvl 7 -x 3050 -y 2100 -defaultsOSRD
+preplace netloc Net 1 7 1 3270 2160n
 preplace netloc axi_bram_ctrl_0_bram_addr_a 1 6 1 2710 1900n
 preplace netloc axi_bram_ctrl_0_bram_clk_a 1 6 1 2700 1880n
 preplace netloc axi_bram_ctrl_0_bram_en_a 1 6 1 2730 1960n
@@ -105,7 +106,6 @@ preplace netloc sysClk50m_1 1 0 1 NJ 840
 preplace netloc uartIpcTx2_1 1 0 7 NJ 1850 NJ 1850 NJ 1850 NJ 1850 NJ 1850 NJ 1850 2710
 preplace netloc uartIpcTxH_1 1 0 7 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 2770
 preplace netloc xlconcat_0_dout 1 2 1 1080 770n
-preplace netloc Net 1 7 1 3270 2160n
 preplace netloc axi_intc_0_interrupt 1 3 1 1420 520n
 preplace netloc microblaze_0_M_AXI_DP 1 4 1 1950 570n
 preplace netloc microblaze_0_axi_periph_M00_AXI 1 5 1 2300 280n

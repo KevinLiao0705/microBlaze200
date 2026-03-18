@@ -1262,3 +1262,98 @@ timestamp=[2026-03-09 18:49:55], mode=BUILD, duration=0:00:00.614, duration_ms=6
 timestamp=[2026-03-09 18:50:14], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=syncMain, configuration=Debug, clean_build=false}
 timestamp=[2026-03-09 19:37:24], mode=PLATFORM_GENERATION, duration=0:00:10.293, duration_ms=10293, data={name=syncBlaze}
 timestamp=[2026-03-09 19:37:28], mode=BUILD, duration=0:00:01.047, duration_ms=1047, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-11 10:39:09], mode=WORKBENCH_START, duration=0:00:13.226, duration_ms=13226, data={}
+timestamp=[2026-03-11 10:39:10], mode=WORKBENCH_UI_INIT, duration=0:00:01.241, duration_ms=1241, data={editors_count=5, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,syncBlaze,syncMain,syncMain_system}
+timestamp=[2026-03-11 10:39:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.624, duration_ms=2624, data={}
+timestamp=[2026-03-11 11:50:26], mode=PLATFORM_GENERATION, duration=0:00:17.665, duration_ms=17665, data={name=syncBlaze}
+timestamp=[2026-03-11 11:50:37], mode=BUILD, duration=0:00:02.204, duration_ms=2204, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-11 13:14:23], mode=BUILD, duration=0:00:00.677, duration_ms=677, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-11 16:19:57], mode=BUILD, duration=0:00:01.343, duration_ms=1343, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-11 17:08:16], mode=PLATFORM_GENERATION, duration=0:00:13.951, duration_ms=13951, data={name=syncBlaze}
+timestamp=[2026-03-11 17:08:37], mode=BUILD, duration=0:00:00.980, duration_ms=980, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-11 17:23:38], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-11 17:46:54], mode=PLATFORM_GENERATION, duration=0:00:04.333, duration_ms=4333, data={name=syncBlaze}
+timestamp=[2026-03-11 17:46:59], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 18:42:06], mode=PLATFORM_GENERATION, duration=0:00:19.036, duration_ms=19036, data={name=syncBlaze}
+timestamp=[2026-03-12 18:42:22], mode=BUILD, duration=0:00:02.017, duration_ms=2017, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 18:47:57], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=syncMain, configuration=Debug, clean_build=true}
+timestamp=[2026-03-12 18:47:58], mode=BUILD, duration=0:00:00.834, duration_ms=834, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 19:01:37], mode=BUILD, duration=0:00:00.617, duration_ms=617, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 19:07:30], mode=BUILD, duration=0:00:00.745, duration_ms=745, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 19:11:39], mode=BUILD, duration=0:00:00.639, duration_ms=639, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 19:20:23], mode=BUILD, duration=0:00:00.732, duration_ms=732, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 19:42:09], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:09:12], mode=BUILD, duration=0:00:00.660, duration_ms=660, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:13:41], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:15:52], mode=BUILD, duration=0:00:00.613, duration_ms=613, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:17:13], mode=BUILD, duration=0:00:00.600, duration_ms=600, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:18:09], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:42:26], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:43:28], mode=BUILD, duration=0:00:01.466, duration_ms=1466, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:47:14], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:50:49], mode=BUILD, duration=0:00:00.099, duration_ms=99, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:52:05], mode=BUILD, duration=0:00:00.600, duration_ms=600, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:53:18], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:53:26], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:54:17], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:57:42], mode=BUILD, duration=0:00:00.630, duration_ms=630, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-12 20:58:00], mode=BUILD, duration=0:00:00.600, duration_ms=600, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 11:40:43], mode=BUILD, duration=0:00:00.761, duration_ms=761, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 13:24:00], mode=BUILD, duration=0:00:00.777, duration_ms=777, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:15:17], mode=BUILD, duration=0:00:00.765, duration_ms=765, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:15:22], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:17:58], mode=BUILD, duration=0:00:00.614, duration_ms=614, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:20:28], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:23:06], mode=BUILD, duration=0:00:00.620, duration_ms=620, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:29:22], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:31:20], mode=BUILD, duration=0:00:00.628, duration_ms=628, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:39:40], mode=BUILD, duration=0:00:00.682, duration_ms=682, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 14:42:19], mode=BUILD, duration=0:00:00.605, duration_ms=605, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 15:01:47], mode=PLATFORM_GENERATION, duration=0:00:14.120, duration_ms=14120, data={name=syncBlaze}
+timestamp=[2026-03-13 15:01:56], mode=BUILD, duration=0:00:00.863, duration_ms=863, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 15:13:36], mode=BUILD, duration=0:00:00.354, duration_ms=354, data={name=syncMain, configuration=Debug, clean_build=true}
+timestamp=[2026-03-13 15:13:37], mode=BUILD, duration=0:00:00.845, duration_ms=845, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 15:23:08], mode=BUILD, duration=0:00:00.109, duration_ms=109, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 15:37:15], mode=BUILD, duration=0:00:02.096, duration_ms=2096, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 15:47:29], mode=PLATFORM_GENERATION, duration=0:00:07.956, duration_ms=7956, data={name=syncBlaze}
+timestamp=[2026-03-13 16:21:19], mode=PLATFORM_GENERATION, duration=0:00:11.335, duration_ms=11335, data={name=syncBlaze}
+timestamp=[2026-03-13 16:21:28], mode=BUILD, duration=0:00:01.219, duration_ms=1219, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 16:58:34], mode=BUILD, duration=0:00:00.673, duration_ms=673, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 17:02:14], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 17:36:15], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 17:36:40], mode=BUILD, duration=0:00:00.612, duration_ms=612, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 17:54:46], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 17:59:46], mode=BUILD, duration=0:00:00.635, duration_ms=635, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 18:00:06], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 18:03:23], mode=BUILD, duration=0:00:00.613, duration_ms=613, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 18:13:48], mode=BUILD, duration=0:00:00.592, duration_ms=592, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 18:25:07], mode=BUILD, duration=0:00:00.109, duration_ms=109, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 18:33:49], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 18:37:06], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 18:52:04], mode=BUILD, duration=0:00:00.617, duration_ms=617, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-13 18:56:18], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 09:33:57], mode=BUILD, duration=0:00:01.211, duration_ms=1211, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 10:39:36], mode=BUILD, duration=0:00:05.383, duration_ms=5383, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 10:40:32], mode=BUILD, duration=0:00:00.928, duration_ms=928, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 10:42:15], mode=BUILD, duration=0:00:00.667, duration_ms=667, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 10:45:54], mode=BUILD, duration=0:00:00.671, duration_ms=671, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 11:09:06], mode=BUILD, duration=0:00:00.839, duration_ms=839, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 11:09:14], mode=BUILD, duration=0:00:01.221, duration_ms=1221, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 11:19:25], mode=BUILD, duration=0:00:00.665, duration_ms=665, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 11:33:02], mode=BUILD, duration=0:00:00.663, duration_ms=663, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 11:35:20], mode=BUILD, duration=0:00:00.619, duration_ms=619, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 11:41:44], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 13:30:38], mode=BUILD, duration=0:00:01.934, duration_ms=1934, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 13:32:08], mode=BUILD, duration=0:00:00.100, duration_ms=100, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 13:32:56], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 13:42:43], mode=BUILD, duration=0:00:00.623, duration_ms=623, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 13:50:26], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 13:54:37], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 14:22:09], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-16 16:58:24], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-17 10:39:18], mode=BUILD, duration=0:00:00.463, duration_ms=463, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-17 11:54:28], mode=BUILD, duration=0:00:00.771, duration_ms=771, data={name=syncMain, configuration=Debug, clean_build=false}
+timestamp=[2026-03-17 19:57:13], mode=WORKBENCH_START, duration=0:00:07.281, duration_ms=7281, data={}
+timestamp=[2026-03-17 19:57:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.494, duration_ms=494, data={editors_count=6, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,syncBlaze,syncMain,syncMain_system}
+timestamp=[2026-03-17 19:57:15], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.893, duration_ms=1893, data={}
+timestamp=[2026-03-17 19:57:37], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=syncMain, configuration=Debug, clean_build=false}

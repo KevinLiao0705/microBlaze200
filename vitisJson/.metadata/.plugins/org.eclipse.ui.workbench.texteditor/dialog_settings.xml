@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="ddd"/>
+		<item key="selection" value="systemStatus0"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="ddd"/>
-			<item value="subStatusA"/>
-			<item value="radarStatus"/>
-			<item value="ctrConnect"/>
-			<item value="mainLoop"/>
+			<item value="systemStatus0"/>
+			<item value="systemStatus1"/>
+			<item value="loadUdIpc"/>
+			<item value="systemStaus0"/>
+			<item value="allSp"/>
+			<item value="systemFlag1"/>
+			<item value="load"/>
+			<item value="fibRx"/>
+			<item value="fibTx"/>
+			<item value="ibRx"/>
+			<item value="2001"/>
+			<item value="ipcRx"/>
+			<item value="fiberCmd"/>
+			<item value="systemStatus"/>
 			<item value="fibRxPrg"/>
-			<item value="memRx"/>
-			<item value="connect"/>
-			<item value="radarData.subStatusA"/>
-			<item value="|=0x1fff"/>
-			<item value="2010"/>
-			<item value="nextCmdPara0"/>
-			<item value="nextCmd"/>
-			<item value="ipcRxPrg"/>
-			<item value="syncRxPrg"/>
 		</list>
 		<list key="replacehistory">
+			<item value="xtC"/>
 			<item value=""/>
 			<item value="addr"/>
 			<item value="m"/>
@@ -32,9 +33,9 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1572"/>
+		<item key="DIALOG_X_ORIGIN" value="1564"/>
 		<item key="DIALOG_Y_ORIGIN" value="360"/>
-		<item key="DIALOG_WIDTH" value="296"/>
+		<item key="DIALOG_WIDTH" value="304"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI"/>
 	</section>

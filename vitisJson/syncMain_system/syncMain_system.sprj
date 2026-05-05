@@ -5,6 +5,10 @@
       <applications name="syncMain" domainName="standalone_domain" domainPrettyName="standalone_domain" appBuildConfig="Debug"/>
       <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
     </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="syncMain" domainName="standalone_domain" domainPrettyName="standalone_domain" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </lastBuildOptions>
   </configuration>
   <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.333986516">
     <configBuildOptions xsi:type="systemproject:SystemOptions">

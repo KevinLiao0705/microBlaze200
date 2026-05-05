@@ -390,7 +390,8 @@ output:
                 rmem[6][23:16]<=hostS1RxPackCnt;
                 //===========================================
                 if(!hostS1RxData1_wb[8:8])begin
-                    smem2[s1RxCommandDataCnt]<=hostS1RxData1_wb;
+                    smem2[hostS1RxCommandDataCnt]<=hostS1RxData1_wb;
+                    rmem[7]<=hostS1RxData1_wb;
                     hostS1RxCommandDataCnt<=hostS1RxCommandDataCnt+1;
                     rmem[44]<=hostS1RxCommandDataCnt;
                 end
@@ -1174,18 +1175,12 @@ output:
         //input   wire [3:0] fibRxA,
         if(bmem[13][7:6]==0)begin//mastere
             if(bmem[13][8:8]==1)begin
-                if(bmem[13][23])
-                    fib1TxData<=hostS1TxData_w;
-                else
-                    fib1TxData<=0;
+                fib1TxData<=hostS1TxData_w;
                 rf1TxData<=0;
                 txSyncClkEn1_f<=0;
             end
             else begin
-                if(bmem[13][23])
-                   rf1TxData<=hostS1TxData_w;
-                else
-                    rf1TxData<=0;
+               rf1TxData<=hostS1TxData_w;
                fib1TxData<=0;
                txSyncClkEn1_f<=1;
             end
@@ -1217,6 +1212,7 @@ output:
             
         end
         if(bmem[13][7:6]==2)begin//ctr
+            txSyncClkEn1_f<=0; 
             rf1TxData<=0;
             rf2TxData<=0;
             fib1TxData<=s1WgRxIn_f;//data through
@@ -1225,6 +1221,7 @@ output:
             fib4TxData<=s1WgRxIn_f;//data through
         end
         if(bmem[13][7:6]==3)begin//endPoint
+            txSyncClkEn1_f<=0; 
             rf1TxData<=0;
             rf2TxData<=0;
             fib1TxData<=s1WgRxIn_f;
@@ -1415,13 +1412,14 @@ output:
                     hostS2TxData1<={hostSxTxStatusBufCnt[1:0],2'b00,hostS2RxPackCnt[2:0],mem[101][8:0]};
                     hostSxRepeatBuf<=mem[101][8:0];
                     hostSxTxStatusBuf<=mem[101];
+                    rmem[42]<=hostSxTxStatusBufCnt;//txed flag
+                    hostSxTxStatusBufCnt<=hostSxTxStatusBufCnt+1;   
+                    test1_f<=test1_f^1;        
                 end    
             end
             else begin
                 hostS1TxData1<={hostSxTxStatusBufCnt[1:0],2'b00,hostS1RxPackCnt[2:0],hostSxRepeatBuf};
                 hostS2TxData1<={hostSxTxStatusBufCnt[1:0],2'b00,hostS2RxPackCnt[2:0],hostSxRepeatBuf};
-                rmem[42]<=hostSxTxStatusBufCnt;//txed flag
-                hostSxTxStatusBufCnt<=hostSxTxStatusBufCnt+1;           
             end
             
             if(hostInhibit_f)begin
@@ -1750,6 +1748,7 @@ output:
     reg[31:0] s1TxStatusBuf;
     reg[31:0] s1TxStatusBufCnt;
     reg[4:0] s1RxCommandDataCnt;
+    reg test1_f;
     
     always @(posedge clk160m) begin
         if(s1SyncRxPack_f)begin
@@ -2268,7 +2267,8 @@ output:
         end  
         if(bmem[5][19:16] == 4'b1111)begin
             laChR[0] <= mem[17][8];
-            laChR[1] <= mem[17][9];
+            //laChR[1] <= mem[17][9];
+            laChR[1] <= test1_f;
             laChR[2] <= mem[17][10];
             laChR[3] <= mem[17][11];
             laChR[4] <= s1LocalRxIn_f;
@@ -2487,7 +2487,8 @@ reg wgClk_of;
     TXPROC hostS1TxProc(
         .clk160m_i(clk160m),
         .preDataGate_i(hostPreDataGate_f),
-        .txCon_i(bmem[13][16]),
+        //.txCon_i(bmem[13][16]),
+        .txCon_i(1),
         .txData0_ib(hostS1TxData0),
         .txData1_ib(hostS1TxData1),
         .txData2_ib(hostS1TxData2),

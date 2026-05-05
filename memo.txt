@@ -220,3 +220,116 @@ git push -u origin main
             //===========================
         end  
         
+
+
+
+     mast mainStatus[1:0] 		==> 0:none, 1:warn up, 2:ready, 3:error ==>mast
+     //sub1 mainStatus[3:2] 		==> 0:none, 1:warn up, 2:ready, 3:error	==>mast,sub
+     //sub2 mainStatus[5:4] 		==> 0:none, 1:warn up, 2:ready, 3:error ==>mast
+     //ctr1 mainStatus[7:6] 		==> 0:none, 1:warn up, 2:ready, 3:error ==>mast,sub,ctr
+     //ctr2 mainStatus[9:8] 		==> 0:none, 1:warn up, 2:ready, 3:error ==>mast
+     //drv1a mainStatus[11:10] 	==> 0:none, 1:warn up, 2:ready, 3:error ==>mast,sub,ctr,drva
+     //drv1b mainStatus[13:12] 	==> 0:none, 1:warn up, 2:ready, 3:error ==>mast,sub,ctr,drvb
+     //drv2a mainStatus[15:14] 	==> 0:none, 1:warn up, 2:ready, 3:error ==>mast
+     //drv2b mainStatus[17:16] 	==> 0:none, 1:warn up, 2:ready, 3:error ==>mast
+     //ctr1Meter mainStatus[19:18] 	==> 0:none, 1:warn up, 2:ready, 3:error ==>mast,sub,ctr,meter
+     //ctr2Meter mainStatus[21:20] 	==> 0:none, 1:warn up, 2:ready, 3:error ==>mast
+     //===
+     ctr1 rfPulse detect flag[22]       ==> 0:none 1:OK			==>mats,sub,ctr
+     ctr1 powerOnStatus[23] 			==> 0:Off 1:On			==>mats,sub,ctr
+     ctr1 sspaEnableStatus[24] 			==> 0:disable 1:enable	==>mats,sub,ctr
+     ctr1 pulseEnableStatus[25] 		==> 0:disable 1:enable	==>mats,sub,ctr
+     ctr1 emergencyStopStatus[26] 		==> 0:nono 1:stop		==>mats,sub,ctr
+     //===
+     ctr2 rfPulse detect flag[27] 		==> 0:none  1:OK  		==>mast
+     ctr2 powerOnStatus[28] 			==> 0:Off 1:On			==>mast
+     ctr2 sspaEnableStatus[29] 			==> 0:disable 1:enable	==>mast
+     ctr2 pulseEnableStatus[30] 		==> 0:disable 1:enable	==>mast
+     ctr2 emergencyStopStatus[31] 		==> 0:nono 1:stop		==>mast
+     */
+    u32 systemStatus0;
+
+
+
+
+
+    /*=================================================
+    sub1 fiberConnectStatus[0]		==> 0:none, 1:connected		==>mats,sub,
+    sub1 rfConnectStatus[1]     	==> 0:none, 1:connected		==>mats,sub,
+    sub2 fiberConnectStatus[2] 		==> 0:none, 1:connected		==>mast
+    sub2 rfConnectStatus[3]    		==> 0:none, 1:connected		==>mast
+
+    ctr1 remoteControlEnable[4]		==> 0:none, 1:enable		==>mast,sub,ctr
+    ctr2 remoteControlEnable[5]		==> 0:none, 1:enable		==>mast
+    mast spPulseExist[6]			==  0:none 1:exist			==>mast
+    ctr1 allSspaEnviSlatus[7] 		==> 0:OK, 1:Error			==>mast,sub,ctr,ctrIpc
+
+    ctr1 allSspaPowerSlatus[8] 		==> 0:OK, 1:Error			==>mast,sub,ctr,ctrIpc
+    ctr1 allSspaModuleSlatus[9] 	==> 0:OK, 1:Error			==>mast,sub,ctr,ctrIpc
+    ctr1 overWidth[10] 				==> 0:OK, 1:Error			==>mast,sub,ctr,ctrIpc
+    ctr1 overDuty[11] 				==> 0:OK, 1:Error			==>mast,sub,ctr,ctrIpc
+
+    ctr2 allSspaEnviSlatus[12] 		==> 0:OK, 1:Error			==>mast
+    ctr2 allSspaPowerSlatus[13] 	==> 0:OK, 1:Error			==>mast
+    ctr2 allSspaModuleSlatus[14] 	==> 0:OK, 1:Error			==>mast
+    ctr2 overWidth[15] 				==> 0:OK, 1:Error			==>mast
+    ctr2 overDuty[16] 				==> 0:OK, 1:Error			==>mast
+    /*=================================================
+    ctr1 meterStatus[17] 			==> 0:OK, 1:Error			==>mast,sub,ctr,ctrIpc
+    ctr2 meterStatus[18] 			==> 0:OK, 1:Error			==>mast
+    mast spPulseExist[19]			==  0:none 1:exist			==>mast
+
+    ctr1 loadType[20]      			==> 0:dummyLoad, 1:ant		==>mast,sub,ctr,meter
+    ctr2 loadType[21]      			==> 0:dummyLoad, 1:ant		==>mast
+    ctr1 battleShort[22]      		==> 0:Off, 1:On				==>mast,sub,ctr
+    ctr2 battleShort[23]      		==> 0:Off, 1:On				==>mast
+
+    sub1MastPulseExist[24]			==  0:none 1:exist			==>mast,sub
+    sub2MastPulseExist[25]			==  0:none 1:exist			==>mast
+    ctr1 pusleFrom[26]				==  0:remoute 1:local		==>mast,sub,ctr
+    sub1 pulseFrom[27]				==  0:remoute 1:local		==>mast,sub
+
+    ctr2 pusleFrom[28]				==  0:remoute 1:local		==>mast
+    sub2 pulseFrom[29]				==  0:remoute 1:local		==>mast
+
+
+    */
+    u32 systemStatus1;
+    //=============================================
+
+
+
+
+    /*=============================================================================
+    emulate flag[1:0] ==> 0:no ,1:syncSet emulate, 2:vitis emulate  ==>all
+    //
+    ctr remote[2] ==> 0:disable 1:enable	==>ctr
+    xxx[3] ==> 0:disable 1:enable
+    //
+    mast pulse source[4] ==> 0:SP, 1:local generate  ==>mast
+    sub pulse source[5] ==> 0:from mast, 1:local generate ==>sub
+    ctr pulseSource[6] ==> 0:from sub, 1:local generate	==>ctr
+    ctr battle short[7] ==> 0:close, 1:open ==>ctr
+    ctr txLoad[8] ==> 0:dummyLoad,1:ant ==>ctr
+    meter sp4tCnt[9] ==>  0:input power, 1:driver poser, 2:cw power, 3:ccw power ==>ctr
+    //
+   	mastToSub1CommType[14:13] ==> 0: fiber, 1:rf, 2:auto, 3:none	==>mast
+   	mastToSub2CommType[16:15] ==> 0: fiber, 1:rf, 2:auto, 3:none	==>mast
+   	//
+   	xxx[17] ==> 0:, 1:
+   	xxx[18] ==> 0:, 1:
+   	//
+    subCommType[20:19] ==> 0: fiber, 1:rf, 2:auto, 3:none		==>sub
+    xxx[22:21] ==> 0: fiber, 1:rf, 2:auto, 3:none
+    //
+    subChSyncType[23] ==> 0: fix delay, 1:1588	==>sub
+    xxx[24] ==> 0: fix delay, 1:1588
+
+   	mastToSub1SpeechEnable[25] ==> 0:disable, 1:enable ==>mast
+   	mastToSub2SpeechEnable[26] ==> 0:disable, 1:enable ==>mast
+
+   	SSPA module protect flag[27] ==> 0:off, 1:on: ==>ctr
+
+   	fpgaId[31:28] ==> ==>all
+    */
+    u32 systemFlag0;

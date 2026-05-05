@@ -1,0 +1,1229 @@
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-05-05.15:48:04::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2026-05-05.15:48:04::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2026-05-05.15:48:04::SCWPlatform::Boot application domains not present, creating them
+TRACE::2026-05-05.15:48:04::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2026-05-05.15:48:04::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2026-05-05.15:48:04::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:04::SCWDomain::checking for install qemu data   : 
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:04::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-05-05.15:48:04::SCWMssOS::No sw design opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:04::SCWMssOS::mss does not exists at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:04::SCWMssOS::Creating sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:04::SCWMssOS::Adding the swdes entry, created swdb D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:04::SCWMssOS::updating the scw layer changes to swdes at   D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:04::SCWMssOS::Writing mss at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:04::SCWMssOS::Completed writing the mss file at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-05-05.15:48:04::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2026-05-05.15:48:04::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2026-05-05.15:48:04::SCWMssOS::Completed writing the mss file at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-05-05.15:48:04::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2026-05-05.15:48:05::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2026-05-05.15:48:05::SCWMssOS::Writing the mss file completed D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:05::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:05::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:05::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:05::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:05::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:05::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"c170b9f8a40f54dc736cb96da899c8fb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-05-05.15:48:05::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-05-05.15:48:05::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-05-05.15:48:05::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-05-05.15:48:05::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-05-05.15:48:05::SCWSystem::Not a boot domain 
+LOG::2026-05-05.15:48:05::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-05-05.15:48:05::SCWDomain::Generating domain artifcats
+TRACE::2026-05-05.15:48:05::SCWMssOS::Generating standalone artifcats
+TRACE::2026-05-05.15:48:05::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:05::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:05::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::Completed writing the mss file at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-05-05.15:48:05::SCWMssOS::Mss edits present, copying mssfile into export location D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-05-05.15:48:05::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-05-05.15:48:05::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2026-05-05.15:48:05::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-05-05.15:48:05::SCWMssOS::Copying to export directory.
+TRACE::2026-05-05.15:48:05::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-05-05.15:48:05::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-05-05.15:48:05::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-05-05.15:48:05::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-05-05.15:48:05::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-05-05.15:48:05::SCWPlatform::Started preparing the platform 
+TRACE::2026-05-05.15:48:05::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-05-05.15:48:05::SCWSystem::dir created 
+TRACE::2026-05-05.15:48:05::SCWSystem::Writing the bif 
+TRACE::2026-05-05.15:48:05::SCWPlatform::Started writing the spfm file 
+TRACE::2026-05-05.15:48:05::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-05-05.15:48:05::SCWPlatform::Completed generating the platform
+TRACE::2026-05-05.15:48:05::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.15:48:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.15:48:05::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:05::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:05::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:05::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:05::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:05::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:05::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:05::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:05::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"c170b9f8a40f54dc736cb96da899c8fb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-05-05.15:48:05::SCWPlatform::updated the xpfm file.
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.15:48:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.15:48:06::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"c170b9f8a40f54dc736cb96da899c8fb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.15:48:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.15:48:06::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"c170b9f8a40f54dc736cb96da899c8fb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-05-05.15:48:06::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-05-05.15:48:06::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-05-05.15:48:06::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-05-05.15:48:06::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-05-05.15:48:06::SCWDomain::Generating domain artifcats
+TRACE::2026-05-05.15:48:06::SCWMssOS::Generating standalone artifcats
+TRACE::2026-05-05.15:48:06::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::Completed writing the mss file at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-05-05.15:48:06::SCWMssOS::Mss edits present, copying mssfile into export location D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2026-05-05.15:48:06::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2026-05-05.15:48:06::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2026-05-05.15:48:06::SCWMssOS::skipping the bsp build ... 
+TRACE::2026-05-05.15:48:06::SCWMssOS::Copying to export directory.
+TRACE::2026-05-05.15:48:06::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-05-05.15:48:06::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-05-05.15:48:06::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-05-05.15:48:06::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-05-05.15:48:06::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-05-05.15:48:06::SCWPlatform::Started preparing the platform 
+TRACE::2026-05-05.15:48:06::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-05-05.15:48:06::SCWSystem::dir created 
+TRACE::2026-05-05.15:48:06::SCWSystem::Writing the bif 
+TRACE::2026-05-05.15:48:06::SCWPlatform::Started writing the spfm file 
+TRACE::2026-05-05.15:48:06::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-05-05.15:48:06::SCWPlatform::Completed generating the platform
+TRACE::2026-05-05.15:48:06::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.15:48:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.15:48:06::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:48:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2026-05-05.15:48:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:48:06::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:48:06::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:48:06::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"c170b9f8a40f54dc736cb96da899c8fb",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-05-05.15:48:06::SCWPlatform::updated the xpfm file.
+TRACE::2026-05-05.15:51:25::SCWPlatform::Clearing the existing platform
+TRACE::2026-05-05.15:51:25::SCWSystem::Clearing the existing sysconfig
+TRACE::2026-05-05.15:51:25::SCWMssOS::Removing the swdes entry for  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWSystem::Clearing the domains completed.
+TRACE::2026-05-05.15:51:25::SCWPlatform::Clearing the opened hw db.
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Platform location is D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:25::SCWPlatform::Removing the HwDB with name D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:25::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-05-05.15:51:25::SCWPlatform::Opened new HwDB with name design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWReader::Active system found as  design_1_wrapper
+TRACE::2026-05-05.15:51:25::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2026-05-05.15:51:25::SCWDomain::checking for install qemu data   : 
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:25::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2026-05-05.15:51:25::SCWMssOS::No sw design opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWMssOS::mss exists loading the mss file  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWMssOS::Opened the sw design from mss  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWMssOS::Adding the swdes entry D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2026-05-05.15:51:25::SCWMssOS::updating the scw layer about changes
+TRACE::2026-05-05.15:51:25::SCWMssOS::Opened the sw design.  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.15:51:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.15:51:25::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:51:25::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2026-05-05.15:51:25::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2026-05-05.15:51:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:25::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:51:25::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:25::SCWReader::No isolation master present  
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Platform location is D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:28::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2026-05-05.15:51:28::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2026-05-05.15:51:28::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2026-05-05.15:51:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:28::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2026-05-05.15:51:28::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2026-05-05.15:51:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:28::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:28::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:51:28::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:28::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:28::SCWPlatform::update - Opened existing hwdb design_1_wrapper_3
+TRACE::2026-05-05.15:51:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:28::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2026-05-05.15:51:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2026-05-05.15:51:28::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:51:28::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2026-05-05.15:51:28::SCWMssOS::Removing the swdes entry for  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:28::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:28::SCWPlatform::Do not have an existing db opened. 
+TRACE::2026-05-05.15:51:28::SCWPlatform::Opened new HwDB with name design_1_wrapper_4
+TRACE::2026-05-05.15:51:28::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:28::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2026-05-05.15:51:28::SCWMssOS::Writing the mss file completed D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:28::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:51:28::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2026-05-05.15:51:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2026-05-05.15:51:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:28::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:28::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:51:28::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:28::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"c170b9f8a40f54dc736cb96da899c8fb1",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2026-05-05.15:51:37::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2026-05-05.15:51:37::SCWPlatform::Sanity checking of platform is completed
+LOG::2026-05-05.15:51:37::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2026-05-05.15:51:37::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2026-05-05.15:51:37::SCWSystem::Not a boot domain 
+LOG::2026-05-05.15:51:37::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2026-05-05.15:51:37::SCWDomain::Generating domain artifcats
+TRACE::2026-05-05.15:51:37::SCWMssOS::Generating standalone artifcats
+TRACE::2026-05-05.15:51:37::SCWMssOS:: Copying the user libraries. 
+TRACE::2026-05-05.15:51:37::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:37::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:37::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:37::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:37::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:37::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2026-05-05.15:51:37::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2026-05-05.15:51:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:37::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:37::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:51:37::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:37::SCWMssOS::Completed writing the mss file at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2026-05-05.15:51:37::SCWMssOS::Mss edits present, copying mssfile into export location D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:37::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2026-05-05.15:51:38::SCWMssOS::doing bsp build ... 
+TRACE::2026-05-05.15:51:38::SCWMssOS::System Command Ran  D: & cd  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2026-05-05.15:51:38::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-05-05.15:51:38::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-05-05.15:51:38::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-05-05.15:51:38::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-05-05.15:51:38::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2026-05-05.15:51:38::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2026-05-05.15:51:38::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-05-05.15:51:38::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-05-05.15:51:38::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2026-05-05.15:51:38::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2026-05-05.15:51:38::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2026-05-05.15:51:38::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2026-05-05.15:51:38::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2026-05-05.15:51:38::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2026-05-05.15:51:38::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-05-05.15:51:38::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-05-05.15:51:38::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-05-05.15:51:38::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-05-05.15:51:38::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2026-05-05.15:51:38::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2026-05-05.15:51:38::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2026-05-05.15:51:38::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2026-05-05.15:51:38::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2026-05-05.15:51:38::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2026-05-05.15:51:38::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_9/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2026-05-05.15:51:38::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2026-05-05.15:51:38::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2026-05-05.15:51:38::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2026-05-05.15:51:38::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2026-05-05.15:51:38::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2026-05-05.15:51:39::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2026-05-05.15:51:39::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2026-05-05.15:51:39::SCWMssOS::make --no-print-directory archive
+
+TRACE::2026-05-05.15:51:39::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2026-05-05.15:51:39::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2026-05-05.15:51:39::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2026-05-05.15:51:39::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2026-05-05.15:51:39::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2026-05-05.15:51:39::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2026-05-05.15:51:39::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2026-05-05.15:51:39::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2026-05-05.15:51:39::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2026-05-05.15:51:39::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2026-05-05.15:51:39::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2026-05-05.15:51:39::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2026-05-05.15:51:39::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2026-05-05.15:51:39::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2026-05-05.15:51:39::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2026-05-05.15:51:39::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2026-05-05.15:51:39::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2026-05-05.15:51:39::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2026-05-05.15:51:39::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2026-05-05.15:51:39::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2026-05-05.15:51:39::SCWMssOS::e_0/lib/xtmrctr.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xt
+TRACE::2026-05-05.15:51:39::SCWMssOS::mrctr_options.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/xtmrctr_stats.o microblaz
+TRACE::2026-05-05.15:51:39::SCWMssOS::e_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_
+TRACE::2026-05-05.15:51:39::SCWMssOS::0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2026-05-05.15:51:39::SCWMssOS::'Finished building libraries'
+
+TRACE::2026-05-05.15:51:39::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2026-05-05.15:51:39::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2026-05-05.15:51:39::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2026-05-05.15:51:39::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2026-05-05.15:51:39::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2026-05-05.15:51:39::SCWPlatform::Started preparing the platform 
+TRACE::2026-05-05.15:51:39::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2026-05-05.15:51:39::SCWSystem::dir created 
+TRACE::2026-05-05.15:51:39::SCWSystem::Writing the bif 
+TRACE::2026-05-05.15:51:39::SCWPlatform::Started writing the spfm file 
+TRACE::2026-05-05.15:51:39::SCWPlatform::Started writing the xpfm file 
+TRACE::2026-05-05.15:51:39::SCWPlatform::Completed generating the platform
+TRACE::2026-05-05.15:51:39::SCWMssOS::Saving the mss changes D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:39::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2026-05-05.15:51:39::SCWMssOS::Writing the mss file completed D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:39::SCWMssOS::Commit changes completed.
+TRACE::2026-05-05.15:51:39::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:39::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:39::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:39::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:39::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:39::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2026-05-05.15:51:39::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2026-05-05.15:51:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:39::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:39::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:51:39::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:39::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"D:/kevin/myCode/microBlaze200/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"c170b9f8a40f54dc736cb96da899c8fb",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2026-05-05.15:51:39::SCWPlatform::updated the xpfm file.
+TRACE::2026-05-05.15:51:40::SCWPlatform::Trying to open the hw design at D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:40::SCWPlatform::DSA given D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:40::SCWPlatform::DSA absoulate path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:40::SCWPlatform::DSA directory D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw
+TRACE::2026-05-05.15:51:40::SCWPlatform:: Platform Path D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2026-05-05.15:51:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2026-05-05.15:51:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2026-05-05.15:51:40::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2026-05-05.15:51:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2026-05-05.15:51:40::SCWMssOS::Checking the sw design at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2026-05-05.15:51:40::SCWMssOS::DEBUG:  swdes dump  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2026-05-05.15:51:40::SCWMssOS::Sw design exists and opened at  D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

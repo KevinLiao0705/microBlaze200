@@ -1,0 +1,99 @@
+Nothing to build in platform 'design_1_wrapper'
+
+15:52:16 **** Build of configuration Debug for project mb200 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:28:
+D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include/xbasic_types.h:102:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+  102 | #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+      |  ^~~~~~~
+D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include/xbasic_types.h:103:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+  103 | #warning  Please refer the Standalone BSP UG647 for further details
+      |  ^~~~~~~
+../src/helloworld.c:212:5: warning: "/*" within comment [-Wcomment]
+  212 |     /*=================================================
+      |      
+../src/helloworld.c: In function 'ud485RxPrg':
+../src/helloworld.c:724:13: warning: unused variable 'para2' [-Wunused-variable]
+  724 |         u16 para2 = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~~~
+../src/helloworld.c:723:13: warning: unused variable 'para1' [-Wunused-variable]
+  723 |         u16 para1 = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~~~
+../src/helloworld.c:720:13: warning: unused variable 'len' [-Wunused-variable]
+  720 |         u16 len = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~
+../src/helloworld.c: In function 'udSyncRxPrg':
+../src/helloworld.c:843:13: warning: unused variable 'para3' [-Wunused-variable]
+  843 |         u16 para3 = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~~~
+../src/helloworld.c:841:13: warning: unused variable 'para1' [-Wunused-variable]
+  841 |         u16 para1 = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~~~
+../src/helloworld.c:838:13: warning: unused variable 'cmdLen' [-Wunused-variable]
+  838 |         u16 cmdLen = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~~~~
+../src/helloworld.c:832:12: warning: unused variable 'i8' [-Wunused-variable]
+  832 |         u8 i8;
+      |            ^~
+../src/helloworld.c: In function 'udFibRxPrg':
+../src/helloworld.c:947:13: warning: unused variable 'para3' [-Wunused-variable]
+  947 |         u16 para3 = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~~~
+../src/helloworld.c:945:13: warning: unused variable 'para1' [-Wunused-variable]
+  945 |         u16 para1 = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~~~
+../src/helloworld.c:943:13: warning: unused variable 'cmd' [-Wunused-variable]
+  943 |         u16 cmd = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~
+../src/helloworld.c:942:13: warning: unused variable 'cmdLen' [-Wunused-variable]
+  942 |         u16 cmdLen = getBufferWord(&inx, udp->rxBuffer);
+      |             ^~~~~~
+../src/helloworld.c: In function 'udIpcRxPrg':
+../src/helloworld.c:1336:21: warning: unused variable 'cmdLen' [-Wunused-variable]
+ 1336 |                 u16 cmdLen = getBufferWord(&inx, udp->rxBuffer);
+      |                     ^~~~~~
+../src/helloworld.c:1326:12: warning: unused variable 'i8' [-Wunused-variable]
+ 1326 |         u8 i8;
+      |            ^~
+../src/helloworld.c: In function 'transBram':
+../src/helloworld.c:1869:12: warning: unused variable 'subCommType' [-Wunused-variable]
+ 1869 |         u8 subCommType=(radarData.systemFlag0>>19)&1;
+      |            ^~~~~~~~~~~
+../src/helloworld.c:1733:13: warning: unused variable 'debug' [-Wunused-variable]
+ 1733 |         int debug;
+      |             ^~~~~
+../src/helloworld.c:1732:12: warning: unused variable 'i8' [-Wunused-variable]
+ 1732 |         u8 i8;
+      |            ^~
+../src/helloworld.c: In function 'uartRxChk':
+../src/helloworld.c:2508:13: warning: variable 'ddd' set but not used [-Wunused-but-set-variable]
+ 2508 |         int ddd=0;
+      |             ^~~
+../src/helloworld.c: In function 'loadUdIpcTx':
+../src/helloworld.c:3597:69: warning: right shift count >= width of type [-Wshift-count-overflow]
+ 3597 |                         udp->txBuffer[inx++]=radarData.subStatusA[i]>>32;
+      |                                                                     ^~
+../src/helloworld.c:3840:20: warning: unused variable 'status' [-Wunused-variable]
+ 3840 |                 u8 status=radarData.sspaPowerStatusAA[udp->txPackItemCnt0];
+      |                    ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mb200.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb200.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mb200.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mb200.elf  |tee "mb200.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72628	    492	  26768	  99888	  18630	mb200.elf
+'Finished building: mb200.elf.size'
+' '

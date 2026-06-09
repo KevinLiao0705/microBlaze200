@@ -52,3 +52,193 @@ con
 
 15:53:30 INFO  : Launch script is exported to file 'D:\kevin\myCode\microBlaze200\moreFun\mb200_system\_ide\scripts\systemdebugger_mb200_system_standalone.tcl'
 15:56:36 INFO  : Disconnected from the channel tcfchan#2.
+13:19:07 DEBUG : Logs will be stored at 'D:/kevin/myCode/microBlaze200/moreFun/IDE.log'.
+13:19:07 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\kevin\myCode\microBlaze200\moreFun\temp_xsdb_launch_script.tcl
+13:19:11 INFO  : Registering command handlers for Vitis TCF services
+13:19:11 INFO  : XSCT server has started successfully.
+13:19:12 INFO  : Platform repository initialization has completed.
+13:19:15 INFO  : Successfully done setting XSCT server connection channel  
+13:19:15 INFO  : plnx-install-location is set to ''
+13:19:15 INFO  : Successfully done query RDI_DATADIR 
+13:19:15 INFO  : Successfully done setting workspace for the tool. 
+13:19:28 INFO  : Checking for BSP changes to sync application flags for project 'mb200'...
+13:21:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:21:32 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+13:21:32 INFO  : 'jtag frequency' command is executed.
+13:21:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}' command is executed.
+13:21:41 INFO  : Device configured successfully with "D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/design_1_wrapper.bit"
+13:21:41 INFO  : Context for processor 'microblaze_0' is selected.
+13:21:41 INFO  : Hardware design and registers information is loaded from 'D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:21:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:21:41 INFO  : Context for processor 'microblaze_0' is selected.
+13:21:41 INFO  : System reset is completed.
+13:21:44 INFO  : 'after 3000' command is executed.
+13:21:44 INFO  : Context for processor 'microblaze_0' is selected.
+13:21:44 INFO  : The application 'D:/kevin/myCode/microBlaze200/moreFun/mb200/Debug/mb200.elf' is downloaded to processor 'microblaze_0'.
+13:21:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}
+fpga -file D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/kevin/myCode/microBlaze200/moreFun/mb200/Debug/mb200.elf
+----------------End of Script----------------
+
+13:21:44 INFO  : Context for processor 'microblaze_0' is selected.
+13:21:44 INFO  : 'con' command is executed.
+13:21:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:21:44 INFO  : Launch script is exported to file 'D:\kevin\myCode\microBlaze200\moreFun\mb200_system\_ide\scripts\systemdebugger_mb200_system_standalone.tcl'
+13:23:58 INFO  : Bit file 'D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit' is generated.
+13:23:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:23:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}' command is executed.
+13:24:07 INFO  : Device configured successfully with "D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit"
+13:24:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:25:08 INFO  : Invoking Bootgen: bootgen -arch fpga -image D:/kevin/myCode/microBlaze200/moreFun/mb200_system/_ide/flash/bootimage.bif -w -o D:/kevin/myCode/microBlaze200/moreFun/mb200_system/_ide/flash/BOOT.bin  -interface spi
+13:25:09 INFO  : Bootgen command execution is done.
+14:12:20 DEBUG : Logs will be stored at 'D:/kevin/myCode/microBlaze200/moreFun/IDE.log'.
+14:12:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\kevin\myCode\microBlaze200\moreFun\temp_xsdb_launch_script.tcl
+14:12:24 INFO  : Registering command handlers for Vitis TCF services
+14:12:25 INFO  : XSCT server has started successfully.
+14:12:25 INFO  : Platform repository initialization has completed.
+14:12:29 INFO  : plnx-install-location is set to ''
+14:12:29 INFO  : Successfully done setting XSCT server connection channel  
+14:12:29 INFO  : Successfully done query RDI_DATADIR 
+14:12:29 INFO  : Successfully done setting workspace for the tool. 
+14:12:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:13:26 INFO  : Bit file 'D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit' is generated.
+14:13:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:13:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}' command is executed.
+14:13:35 INFO  : Device configured successfully with "D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit"
+14:14:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:15:04 INFO  : Invoking Bootgen: bootgen -arch fpga -image D:/kevin/myCode/microBlaze200/moreFun/mb200_system/_ide/flash/bootimage.bif -w -o D:/kevin/myCode/microBlaze200/moreFun/mb200_system/_ide/flash/BOOT.bin  -interface spi
+14:15:05 INFO  : Bootgen command execution is done.
+13:31:04 DEBUG : Logs will be stored at 'D:/kevin/myCode/microBlaze200/moreFun/IDE.log'.
+13:31:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\kevin\myCode\microBlaze200\moreFun\temp_xsdb_launch_script.tcl
+13:31:07 INFO  : Registering command handlers for Vitis TCF services
+13:31:08 INFO  : Platform repository initialization has completed.
+13:31:09 INFO  : XSCT server has started successfully.
+13:31:09 INFO  : plnx-install-location is set to ''
+13:31:09 INFO  : Successfully done setting XSCT server connection channel  
+13:31:12 INFO  : Successfully done setting workspace for the tool. 
+13:31:12 INFO  : Successfully done query RDI_DATADIR 
+13:31:52 INFO  : Checking for BSP changes to sync application flags for project 'mb200'...
+13:32:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:32:03 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+13:32:03 INFO  : 'jtag frequency' command is executed.
+13:32:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}' command is executed.
+13:32:11 INFO  : Device configured successfully with "D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit"
+13:32:11 INFO  : Context for processor 'microblaze_0' is selected.
+13:32:11 INFO  : Hardware design and registers information is loaded from 'D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+13:32:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:32:11 INFO  : Context for processor 'microblaze_0' is selected.
+13:32:11 INFO  : System reset is completed.
+13:32:14 INFO  : 'after 3000' command is executed.
+13:32:14 INFO  : Context for processor 'microblaze_0' is selected.
+13:32:15 INFO  : The application 'D:/kevin/myCode/microBlaze200/moreFun/mb200/Debug/mb200.elf' is downloaded to processor 'microblaze_0'.
+13:32:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}
+fpga -file D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/kevin/myCode/microBlaze200/moreFun/mb200/Debug/mb200.elf
+----------------End of Script----------------
+
+13:32:15 INFO  : Context for processor 'microblaze_0' is selected.
+13:32:15 INFO  : 'con' command is executed.
+13:32:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:32:15 INFO  : Launch script is exported to file 'D:\kevin\myCode\microBlaze200\moreFun\mb200_system\_ide\scripts\systemdebugger_mb200_system_standalone.tcl'
+14:44:01 INFO  : Disconnected from the channel tcfchan#1.
+14:44:02 INFO  : Checking for BSP changes to sync application flags for project 'mb200'...
+14:44:24 INFO  : Checking for BSP changes to sync application flags for project 'mb200'...
+14:44:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:44:34 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+14:44:34 INFO  : 'jtag frequency' command is executed.
+14:44:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}' command is executed.
+14:44:43 INFO  : Device configured successfully with "D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit"
+14:44:43 INFO  : Context for processor 'microblaze_0' is selected.
+14:44:43 INFO  : Hardware design and registers information is loaded from 'D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:44:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:44:43 INFO  : Context for processor 'microblaze_0' is selected.
+14:44:43 INFO  : System reset is completed.
+14:44:46 INFO  : 'after 3000' command is executed.
+14:44:46 INFO  : Context for processor 'microblaze_0' is selected.
+14:44:46 INFO  : The application 'D:/kevin/myCode/microBlaze200/moreFun/mb200/Debug/mb200.elf' is downloaded to processor 'microblaze_0'.
+14:44:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}
+fpga -file D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/kevin/myCode/microBlaze200/moreFun/mb200/Debug/mb200.elf
+----------------End of Script----------------
+
+14:44:46 INFO  : Context for processor 'microblaze_0' is selected.
+14:44:46 INFO  : 'con' command is executed.
+14:44:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:44:46 INFO  : Launch script is exported to file 'D:\kevin\myCode\microBlaze200\moreFun\mb200_system\_ide\scripts\systemdebugger_mb200_system_standalone.tcl'
+14:49:20 INFO  : Disconnected from the channel tcfchan#2.
+14:49:24 INFO  : Checking for BSP changes to sync application flags for project 'mb200'...
+14:49:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:49:28 INFO  : Jtag cable 'Digilent JTAG-HS2 201706300081' is selected.
+14:49:28 INFO  : 'jtag frequency' command is executed.
+14:49:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}' command is executed.
+14:49:36 INFO  : Device configured successfully with "D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit"
+14:49:36 INFO  : Context for processor 'microblaze_0' is selected.
+14:49:36 INFO  : Hardware design and registers information is loaded from 'D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:49:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:49:36 INFO  : Context for processor 'microblaze_0' is selected.
+14:49:36 INFO  : System reset is completed.
+14:49:39 INFO  : 'after 3000' command is executed.
+14:49:39 INFO  : Context for processor 'microblaze_0' is selected.
+14:49:40 INFO  : The application 'D:/kevin/myCode/microBlaze200/moreFun/mb200/Debug/mb200.elf' is downloaded to processor 'microblaze_0'.
+14:49:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}
+fpga -file D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/kevin/myCode/microBlaze200/moreFun/mb200/Debug/mb200.elf
+----------------End of Script----------------
+
+14:49:40 INFO  : Context for processor 'microblaze_0' is selected.
+14:49:40 INFO  : 'con' command is executed.
+14:49:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:49:40 INFO  : Launch script is exported to file 'D:\kevin\myCode\microBlaze200\moreFun\mb200_system\_ide\scripts\systemdebugger_mb200_system_standalone.tcl'
+15:02:57 INFO  : Disconnected from the channel tcfchan#3.

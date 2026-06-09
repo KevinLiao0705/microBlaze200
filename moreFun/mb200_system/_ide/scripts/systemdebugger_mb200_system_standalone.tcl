@@ -11,7 +11,7 @@
 # 
 connect -url tcp:127.0.0.1:3121
 targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}
-fpga -file D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/design_1_wrapper.bit
+fpga -file D:/kevin/myCode/microBlaze200/moreFun/mb200/_ide/bitstream/download.bit
 targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
 loadhw -hw D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -regs
 configparams mdm-detect-bscan-mask 2

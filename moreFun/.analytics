@@ -4,3 +4,17 @@ timestamp=[2026-05-05 15:47:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00
 timestamp=[2026-05-05 15:48:08], mode=APP_CREATION, duration=0:00:03.521, duration_ms=3521, data={name=mb200, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=design_1_wrapper, application_type=application}
 timestamp=[2026-05-05 15:51:40], mode=PLATFORM_GENERATION, duration=0:00:03.969, duration_ms=3969, data={name=design_1_wrapper}
 timestamp=[2026-05-05 15:52:21], mode=BUILD, duration=0:00:04.444, duration_ms=4444, data={name=mb200, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 13:19:11], mode=WORKBENCH_START, duration=0:00:07.453, duration_ms=7453, data={}
+timestamp=[2026-05-06 13:19:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.563, duration_ms=563, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,mb200,mb200_system}
+timestamp=[2026-05-06 13:19:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.211, duration_ms=1211, data={}
+timestamp=[2026-05-06 13:19:29], mode=BUILD, duration=0:00:00.406, duration_ms=406, data={name=mb200, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 14:12:23], mode=WORKBENCH_START, duration=0:00:07.023, duration_ms=7023, data={}
+timestamp=[2026-05-06 14:12:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.489, duration_ms=489, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,mb200,mb200_system}
+timestamp=[2026-05-06 14:12:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.215, duration_ms=1215, data={}
+timestamp=[2026-05-13 13:31:06], mode=WORKBENCH_START, duration=0:00:06.024, duration_ms=6024, data={}
+timestamp=[2026-05-13 13:31:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.498, duration_ms=498, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,mb200,mb200_system}
+timestamp=[2026-05-13 13:31:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.108, duration_ms=1108, data={}
+timestamp=[2026-05-13 13:31:52], mode=BUILD, duration=0:00:00.498, duration_ms=498, data={name=mb200, configuration=Debug, clean_build=false}
+timestamp=[2026-05-13 14:44:03], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=mb200, configuration=Debug, clean_build=false}
+timestamp=[2026-05-13 14:44:25], mode=BUILD, duration=0:00:01.670, duration_ms=1670, data={name=mb200, configuration=Debug, clean_build=false}
+timestamp=[2026-05-13 14:49:25], mode=BUILD, duration=0:00:00.812, duration_ms=812, data={name=mb200, configuration=Debug, clean_build=false}

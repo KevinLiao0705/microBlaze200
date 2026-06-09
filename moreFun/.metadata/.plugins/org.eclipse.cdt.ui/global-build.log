@@ -1,6 +1,6 @@
 Nothing to build in platform 'design_1_wrapper'
 
-15:52:16 **** Build of configuration Debug for project mb200 ****
+14:49:24 **** Incremental Build of configuration Debug for project mb200 ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -80,11 +80,6 @@ D:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/s
  3840 |                 u8 status=radarData.sspaPowerStatusAA[udp->txPackItemCnt0];
       |                    ^~~~~~
 'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/kevin/myCode/microBlaze200/moreFun/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
 ' '
 'Building target: mb200.elf'
 'Invoking: MicroBlaze gcc linker'

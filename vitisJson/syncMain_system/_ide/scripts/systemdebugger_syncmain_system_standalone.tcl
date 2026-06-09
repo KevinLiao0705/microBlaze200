@@ -10,7 +10,7 @@
 # source E:\kevin\myCode\microBlaze200\vitisJson\syncMain_system\_ide\scripts\systemdebugger_syncmain_system_standalone.tcl
 # 
 connect -url tcp:127.0.0.1:3121
-targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS2 201706300081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS2-201706300081-13636093-0"}
+targets -set -filter {jtag_cable_name =~ "Platform Cable USB 13724327082d01" && level==0 && jtag_device_ctx=="jsn-DLC9LP-13724327082d01-13636093-0"}
 fpga -file E:/kevin/myCode/microBlaze200/vitisJson/syncMain/_ide/bitstream/download.bit
 targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
 loadhw -hw E:/kevin/myCode/microBlaze200/vitisJson/syncBlaze/export/syncBlaze/hw/design_1_wrapper.xsa -regs

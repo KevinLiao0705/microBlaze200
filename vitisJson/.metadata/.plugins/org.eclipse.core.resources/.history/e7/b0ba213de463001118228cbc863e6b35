@@ -990,10 +990,6 @@ void udFibRxPrg(UartData *udp,u8 ser)
 
 
 	if(para0==0x0002){
-		if(radarData.fpgaId==2){
-			return;
-		}
-
 		if(radarData.fpgaId==1){ //ctr => sub
 			radarData.conRxCntA[4]=para2&255;
 			radarData.conRxCntA[5]=para2>>8;
@@ -1019,6 +1015,10 @@ void udFibRxPrg(UartData *udp,u8 ser)
 		}
 		//fpgaId=3,4,15
 
+		if(radarData.fpgaId==2){ //ctr => ctr
+			radarData.systemStatus1&=fffffcff;
+			return;
+		}
 		radarData.systemStatus0=getBufferDword(&inx, udp->rxBuffer);
 		radarData.systemStatus1=getBufferDword(&inx, udp->rxBuffer);
 		radarData.systemFlag0=getBufferDword(&inx, udp->rxBuffer);
@@ -2321,6 +2321,7 @@ int main()
 		//=======================
 		uartTxByte(&udIpc, XPAR_UARTLITE_0_BASEADDR);
 		uartRxChk(&udIpc);
+
 		//=======================
 		getSlotInfPrg();
 		uartTxByte(&ud485, XPAR_UARTLITE_1_BASEADDR);
@@ -3471,7 +3472,6 @@ void loadUdIpcTx(){
 	udp->txBuffer[inx++]=(radarData.systemStatus0>>16)&255;
 	udp->txBuffer[inx++]=(radarData.systemStatus0>>24)&255;
 
-	radarData.systemStatus1&=0xfffffcff;
 
 	udp->txBuffer[inx++]=(radarData.systemStatus1)&255;
 	udp->txBuffer[inx++]=(radarData.systemStatus1>>8)&255;

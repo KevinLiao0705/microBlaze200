@@ -1,4 +1,4 @@
-19:30:29 **** Incremental Build of configuration Debug for project syncMain ****
+18:04:24 **** Incremental Build of configuration Debug for project syncMain ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -71,11 +71,11 @@ E:/kevin/myCode/microBlaze200/vitisJson/syncBlaze/export/syncBlaze/sw/syncBlaze/
  2508 |         int ddd=0;
       |             ^~~
 ../src/helloworld.c: In function 'loadUdIpcTx':
-../src/helloworld.c:3597:69: warning: right shift count >= width of type [-Wshift-count-overflow]
- 3597 |                         udp->txBuffer[inx++]=radarData.subStatusA[i]>>32;
+../src/helloworld.c:3599:69: warning: right shift count >= width of type [-Wshift-count-overflow]
+ 3599 |                         udp->txBuffer[inx++]=radarData.subStatusA[i]>>32;
       |                                                                     ^~
-../src/helloworld.c:3840:20: warning: unused variable 'status' [-Wunused-variable]
- 3840 |                 u8 status=radarData.sspaPowerStatusAA[udp->txPackItemCnt0];
+../src/helloworld.c:3842:20: warning: unused variable 'status' [-Wunused-variable]
+ 3842 |                 u8 status=radarData.sspaPowerStatusAA[udp->txPackItemCnt0];
       |                    ^~~~~~
 'Finished building: ../src/helloworld.c'
 ' '
@@ -87,9 +87,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/kevin/myCode/microBlaze200/vitisJson/sy
 'Invoking: MicroBlaze Print Size'
 mb-size syncMain.elf  |tee "syncMain.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  72628	    492	  26768	  99888	  18630	syncMain.elf
+  72676	    492	  26768	  99936	  18660	syncMain.elf
 'Finished building: syncMain.elf.size'
 ' '
 
-19:30:30 Build Finished (took 606ms)
+18:04:24 Build Finished (took 606ms)
 

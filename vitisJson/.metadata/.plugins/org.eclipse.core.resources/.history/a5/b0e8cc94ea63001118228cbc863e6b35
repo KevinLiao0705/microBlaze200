@@ -3471,7 +3471,6 @@ void loadUdIpcTx(){
 	udp->txBuffer[inx++]=(radarData.systemStatus0>>16)&255;
 	udp->txBuffer[inx++]=(radarData.systemStatus0>>24)&255;
 
-	radarData.systemStatus1&=0xfffffcff;
 
 	udp->txBuffer[inx++]=(radarData.systemStatus1)&255;
 	udp->txBuffer[inx++]=(radarData.systemStatus1>>8)&255;
